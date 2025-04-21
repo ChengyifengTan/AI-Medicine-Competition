@@ -1,2 +1,6 @@
-/mri_images
-/cervai_challenge-main
+data/mri_images
+data/test.json
+.DS_Store
+/data
+/work_dirs
+/MedM-VL
