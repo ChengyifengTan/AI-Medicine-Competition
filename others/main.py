@@ -24,7 +24,7 @@ def set_seed(seed=42):
 set_seed()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-task = 'qd' # qd, sl, ajppt, zyzg
+task = 'sl' # qd, sl, zjppt, zyzg
 # TODO: zjppt, zyzg 格式还不太对
 if task == 'qd':
     num_classes = 3
@@ -117,7 +117,6 @@ def load_labels(label_path):
             
             if label_value is not None:
                 labels.append(label_value)
-                # 建立索引到标签的映射
                 index_to_labels[adjusted_idx] = label_value
                 
             # Establish bidirectional mapping between image_id and index
