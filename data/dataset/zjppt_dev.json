@@ -3,8 +3,8 @@
         "id": "01240428213079",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240428213079/sag/6.png",
-            "/home/che/data/mri_images/train/01240428213079/tra/2-3.png"
+            "/mri_images/train/01240428213079/sag/6.png",
+            "/mri_images/train/01240428213079/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -19,8 +19,8 @@
         "id": "01240428213079",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240428213079/sag/6.png",
-            "/home/che/data/mri_images/train/01240428213079/tra/3-4.png"
+            "/mri_images/train/01240428213079/sag/6.png",
+            "/mri_images/train/01240428213079/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -35,8 +35,8 @@
         "id": "01240428213079",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240428213079/sag/6.png",
-            "/home/che/data/mri_images/train/01240428213079/tra/4-5.png"
+            "/mri_images/train/01240428213079/sag/6.png",
+            "/mri_images/train/01240428213079/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -51,8 +51,8 @@
         "id": "01240428213079",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240428213079/sag/6.png",
-            "/home/che/data/mri_images/train/01240428213079/tra/5-6.png"
+            "/mri_images/train/01240428213079/sag/6.png",
+            "/mri_images/train/01240428213079/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -67,8 +67,8 @@
         "id": "01240428213079",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240428213079/sag/6.png",
-            "/home/che/data/mri_images/train/01240428213079/tra/6-7.png"
+            "/mri_images/train/01240428213079/sag/6.png",
+            "/mri_images/train/01240428213079/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -83,8 +83,8 @@
         "id": "01240425213012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425213012/sag/6.png",
-            "/home/che/data/mri_images/train/01240425213012/tra/2-3.png"
+            "/mri_images/train/01240425213012/sag/6.png",
+            "/mri_images/train/01240425213012/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -99,8 +99,8 @@
         "id": "01240425213012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425213012/sag/6.png",
-            "/home/che/data/mri_images/train/01240425213012/tra/3-4.png"
+            "/mri_images/train/01240425213012/sag/6.png",
+            "/mri_images/train/01240425213012/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -115,8 +115,8 @@
         "id": "01240425213012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425213012/sag/6.png",
-            "/home/che/data/mri_images/train/01240425213012/tra/4-5.png"
+            "/mri_images/train/01240425213012/sag/6.png",
+            "/mri_images/train/01240425213012/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -131,8 +131,8 @@
         "id": "01240425213012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425213012/sag/6.png",
-            "/home/che/data/mri_images/train/01240425213012/tra/5-6.png"
+            "/mri_images/train/01240425213012/sag/6.png",
+            "/mri_images/train/01240425213012/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -147,8 +147,8 @@
         "id": "01240425213012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425213012/sag/6.png",
-            "/home/che/data/mri_images/train/01240425213012/tra/6-7.png"
+            "/mri_images/train/01240425213012/sag/6.png",
+            "/mri_images/train/01240425213012/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -163,8 +163,8 @@
         "id": "01240604210061",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240604210061/sag/6.png",
-            "/home/che/data/mri_images/train/01240604210061/tra/2-3.png"
+            "/mri_images/train/01240604210061/sag/6.png",
+            "/mri_images/train/01240604210061/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -179,8 +179,8 @@
         "id": "01240604210061",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240604210061/sag/6.png",
-            "/home/che/data/mri_images/train/01240604210061/tra/3-4.png"
+            "/mri_images/train/01240604210061/sag/6.png",
+            "/mri_images/train/01240604210061/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -195,8 +195,8 @@
         "id": "01240604210061",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240604210061/sag/6.png",
-            "/home/che/data/mri_images/train/01240604210061/tra/4-5.png"
+            "/mri_images/train/01240604210061/sag/6.png",
+            "/mri_images/train/01240604210061/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -211,8 +211,8 @@
         "id": "01240604210061",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240604210061/sag/6.png",
-            "/home/che/data/mri_images/train/01240604210061/tra/5-6.png"
+            "/mri_images/train/01240604210061/sag/6.png",
+            "/mri_images/train/01240604210061/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -227,8 +227,8 @@
         "id": "01240604210061",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240604210061/sag/6.png",
-            "/home/che/data/mri_images/train/01240604210061/tra/6-7.png"
+            "/mri_images/train/01240604210061/sag/6.png",
+            "/mri_images/train/01240604210061/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -243,8 +243,8 @@
         "id": "02240513201052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201052/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201052/tra/2-3.png"
+            "/mri_images/train/02240513201052/sag/6.png",
+            "/mri_images/train/02240513201052/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -259,8 +259,8 @@
         "id": "02240513201052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201052/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201052/tra/3-4.png"
+            "/mri_images/train/02240513201052/sag/6.png",
+            "/mri_images/train/02240513201052/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -275,8 +275,8 @@
         "id": "02240513201052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201052/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201052/tra/4-5.png"
+            "/mri_images/train/02240513201052/sag/6.png",
+            "/mri_images/train/02240513201052/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -291,8 +291,8 @@
         "id": "02240513201052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201052/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201052/tra/5-6.png"
+            "/mri_images/train/02240513201052/sag/6.png",
+            "/mri_images/train/02240513201052/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -307,8 +307,8 @@
         "id": "02240513201052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201052/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201052/tra/6-7.png"
+            "/mri_images/train/02240513201052/sag/6.png",
+            "/mri_images/train/02240513201052/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -323,8 +323,8 @@
         "id": "02240509214038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509214038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509214038/tra/2-3.png"
+            "/mri_images/train/02240509214038/sag/6.png",
+            "/mri_images/train/02240509214038/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -339,8 +339,8 @@
         "id": "02240509214038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509214038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509214038/tra/3-4.png"
+            "/mri_images/train/02240509214038/sag/6.png",
+            "/mri_images/train/02240509214038/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -355,8 +355,8 @@
         "id": "02240509214038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509214038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509214038/tra/4-5.png"
+            "/mri_images/train/02240509214038/sag/6.png",
+            "/mri_images/train/02240509214038/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -371,8 +371,8 @@
         "id": "02240509214038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509214038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509214038/tra/5-6.png"
+            "/mri_images/train/02240509214038/sag/6.png",
+            "/mri_images/train/02240509214038/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -387,8 +387,8 @@
         "id": "02240509214038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509214038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509214038/tra/6-7.png"
+            "/mri_images/train/02240509214038/sag/6.png",
+            "/mri_images/train/02240509214038/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -403,8 +403,8 @@
         "id": "01240426214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214045/tra/2-3.png"
+            "/mri_images/train/01240426214045/sag/6.png",
+            "/mri_images/train/01240426214045/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -419,8 +419,8 @@
         "id": "01240426214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214045/tra/3-4.png"
+            "/mri_images/train/01240426214045/sag/6.png",
+            "/mri_images/train/01240426214045/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -435,8 +435,8 @@
         "id": "01240426214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214045/tra/4-5.png"
+            "/mri_images/train/01240426214045/sag/6.png",
+            "/mri_images/train/01240426214045/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -451,8 +451,8 @@
         "id": "01240426214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214045/tra/5-6.png"
+            "/mri_images/train/01240426214045/sag/6.png",
+            "/mri_images/train/01240426214045/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -467,8 +467,8 @@
         "id": "01240426214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214045/tra/6-7.png"
+            "/mri_images/train/01240426214045/sag/6.png",
+            "/mri_images/train/01240426214045/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -483,8 +483,8 @@
         "id": "01240516219037",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516219037/sag/6.png",
-            "/home/che/data/mri_images/train/01240516219037/tra/2-3.png"
+            "/mri_images/train/01240516219037/sag/6.png",
+            "/mri_images/train/01240516219037/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -499,8 +499,8 @@
         "id": "01240516219037",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516219037/sag/6.png",
-            "/home/che/data/mri_images/train/01240516219037/tra/3-4.png"
+            "/mri_images/train/01240516219037/sag/6.png",
+            "/mri_images/train/01240516219037/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -515,8 +515,8 @@
         "id": "01240516219037",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516219037/sag/6.png",
-            "/home/che/data/mri_images/train/01240516219037/tra/4-5.png"
+            "/mri_images/train/01240516219037/sag/6.png",
+            "/mri_images/train/01240516219037/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -531,8 +531,8 @@
         "id": "01240516219037",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516219037/sag/6.png",
-            "/home/che/data/mri_images/train/01240516219037/tra/5-6.png"
+            "/mri_images/train/01240516219037/sag/6.png",
+            "/mri_images/train/01240516219037/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -547,8 +547,8 @@
         "id": "01240516219037",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516219037/sag/6.png",
-            "/home/che/data/mri_images/train/01240516219037/tra/6-7.png"
+            "/mri_images/train/01240516219037/sag/6.png",
+            "/mri_images/train/01240516219037/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -563,8 +563,8 @@
         "id": "01240419202032",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419202032/sag/6.png",
-            "/home/che/data/mri_images/train/01240419202032/tra/2-3.png"
+            "/mri_images/train/01240419202032/sag/6.png",
+            "/mri_images/train/01240419202032/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -579,8 +579,8 @@
         "id": "01240419202032",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419202032/sag/6.png",
-            "/home/che/data/mri_images/train/01240419202032/tra/3-4.png"
+            "/mri_images/train/01240419202032/sag/6.png",
+            "/mri_images/train/01240419202032/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -595,8 +595,8 @@
         "id": "01240419202032",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419202032/sag/6.png",
-            "/home/che/data/mri_images/train/01240419202032/tra/4-5.png"
+            "/mri_images/train/01240419202032/sag/6.png",
+            "/mri_images/train/01240419202032/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -611,8 +611,8 @@
         "id": "01240419202032",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419202032/sag/6.png",
-            "/home/che/data/mri_images/train/01240419202032/tra/5-6.png"
+            "/mri_images/train/01240419202032/sag/6.png",
+            "/mri_images/train/01240419202032/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -627,8 +627,8 @@
         "id": "01240419202032",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419202032/sag/6.png",
-            "/home/che/data/mri_images/train/01240419202032/tra/6-7.png"
+            "/mri_images/train/01240419202032/sag/6.png",
+            "/mri_images/train/01240419202032/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -643,8 +643,8 @@
         "id": "01240515214073",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515214073/sag/6.png",
-            "/home/che/data/mri_images/train/01240515214073/tra/2-3.png"
+            "/mri_images/train/01240515214073/sag/6.png",
+            "/mri_images/train/01240515214073/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -659,8 +659,8 @@
         "id": "01240515214073",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515214073/sag/6.png",
-            "/home/che/data/mri_images/train/01240515214073/tra/3-4.png"
+            "/mri_images/train/01240515214073/sag/6.png",
+            "/mri_images/train/01240515214073/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -675,8 +675,8 @@
         "id": "01240515214073",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515214073/sag/6.png",
-            "/home/che/data/mri_images/train/01240515214073/tra/4-5.png"
+            "/mri_images/train/01240515214073/sag/6.png",
+            "/mri_images/train/01240515214073/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -691,8 +691,8 @@
         "id": "01240515214073",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515214073/sag/6.png",
-            "/home/che/data/mri_images/train/01240515214073/tra/5-6.png"
+            "/mri_images/train/01240515214073/sag/6.png",
+            "/mri_images/train/01240515214073/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -707,8 +707,8 @@
         "id": "01240515214073",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515214073/sag/6.png",
-            "/home/che/data/mri_images/train/01240515214073/tra/6-7.png"
+            "/mri_images/train/01240515214073/sag/6.png",
+            "/mri_images/train/01240515214073/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -723,8 +723,8 @@
         "id": "01240523217030",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240523217030/sag/6.png",
-            "/home/che/data/mri_images/train/01240523217030/tra/2-3.png"
+            "/mri_images/train/01240523217030/sag/6.png",
+            "/mri_images/train/01240523217030/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -739,8 +739,8 @@
         "id": "01240523217030",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240523217030/sag/6.png",
-            "/home/che/data/mri_images/train/01240523217030/tra/3-4.png"
+            "/mri_images/train/01240523217030/sag/6.png",
+            "/mri_images/train/01240523217030/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -755,8 +755,8 @@
         "id": "01240523217030",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240523217030/sag/6.png",
-            "/home/che/data/mri_images/train/01240523217030/tra/4-5.png"
+            "/mri_images/train/01240523217030/sag/6.png",
+            "/mri_images/train/01240523217030/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -771,8 +771,8 @@
         "id": "01240523217030",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240523217030/sag/6.png",
-            "/home/che/data/mri_images/train/01240523217030/tra/5-6.png"
+            "/mri_images/train/01240523217030/sag/6.png",
+            "/mri_images/train/01240523217030/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -787,8 +787,8 @@
         "id": "01240523217030",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240523217030/sag/6.png",
-            "/home/che/data/mri_images/train/01240523217030/tra/6-7.png"
+            "/mri_images/train/01240523217030/sag/6.png",
+            "/mri_images/train/01240523217030/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -803,8 +803,8 @@
         "id": "01240518217012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240518217012/sag/6.png",
-            "/home/che/data/mri_images/train/01240518217012/tra/2-3.png"
+            "/mri_images/train/01240518217012/sag/6.png",
+            "/mri_images/train/01240518217012/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -819,8 +819,8 @@
         "id": "01240518217012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240518217012/sag/6.png",
-            "/home/che/data/mri_images/train/01240518217012/tra/3-4.png"
+            "/mri_images/train/01240518217012/sag/6.png",
+            "/mri_images/train/01240518217012/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -835,8 +835,8 @@
         "id": "01240518217012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240518217012/sag/6.png",
-            "/home/che/data/mri_images/train/01240518217012/tra/4-5.png"
+            "/mri_images/train/01240518217012/sag/6.png",
+            "/mri_images/train/01240518217012/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -851,8 +851,8 @@
         "id": "01240518217012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240518217012/sag/6.png",
-            "/home/che/data/mri_images/train/01240518217012/tra/5-6.png"
+            "/mri_images/train/01240518217012/sag/6.png",
+            "/mri_images/train/01240518217012/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -867,8 +867,8 @@
         "id": "01240518217012",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240518217012/sag/6.png",
-            "/home/che/data/mri_images/train/01240518217012/tra/6-7.png"
+            "/mri_images/train/01240518217012/sag/6.png",
+            "/mri_images/train/01240518217012/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -883,8 +883,8 @@
         "id": "01240515218045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515218045/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218045/tra/2-3.png"
+            "/mri_images/train/01240515218045/sag/6.png",
+            "/mri_images/train/01240515218045/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -899,8 +899,8 @@
         "id": "01240515218045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515218045/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218045/tra/3-4.png"
+            "/mri_images/train/01240515218045/sag/6.png",
+            "/mri_images/train/01240515218045/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -915,8 +915,8 @@
         "id": "01240515218045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515218045/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218045/tra/4-5.png"
+            "/mri_images/train/01240515218045/sag/6.png",
+            "/mri_images/train/01240515218045/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -931,8 +931,8 @@
         "id": "01240515218045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515218045/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218045/tra/5-6.png"
+            "/mri_images/train/01240515218045/sag/6.png",
+            "/mri_images/train/01240515218045/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "A.normal",
@@ -947,8 +947,8 @@
         "id": "01240515218045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515218045/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218045/tra/6-7.png"
+            "/mri_images/train/01240515218045/sag/6.png",
+            "/mri_images/train/01240515218045/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -963,8 +963,8 @@
         "id": "01240508214088",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240508214088/sag/6.png",
-            "/home/che/data/mri_images/train/01240508214088/tra/2-3.png"
+            "/mri_images/train/01240508214088/sag/6.png",
+            "/mri_images/train/01240508214088/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -979,8 +979,8 @@
         "id": "01240508214088",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240508214088/sag/6.png",
-            "/home/che/data/mri_images/train/01240508214088/tra/3-4.png"
+            "/mri_images/train/01240508214088/sag/6.png",
+            "/mri_images/train/01240508214088/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -995,8 +995,8 @@
         "id": "01240508214088",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240508214088/sag/6.png",
-            "/home/che/data/mri_images/train/01240508214088/tra/4-5.png"
+            "/mri_images/train/01240508214088/sag/6.png",
+            "/mri_images/train/01240508214088/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "A.normal",
@@ -1011,8 +1011,8 @@
         "id": "01240508214088",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240508214088/sag/6.png",
-            "/home/che/data/mri_images/train/01240508214088/tra/5-6.png"
+            "/mri_images/train/01240508214088/sag/6.png",
+            "/mri_images/train/01240508214088/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1027,8 +1027,8 @@
         "id": "01240508214088",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240508214088/sag/6.png",
-            "/home/che/data/mri_images/train/01240508214088/tra/6-7.png"
+            "/mri_images/train/01240508214088/sag/6.png",
+            "/mri_images/train/01240508214088/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1043,8 +1043,8 @@
         "id": "01240527221035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240527221035/sag/6.png",
-            "/home/che/data/mri_images/train/01240527221035/tra/2-3.png"
+            "/mri_images/train/01240527221035/sag/6.png",
+            "/mri_images/train/01240527221035/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -1059,8 +1059,8 @@
         "id": "01240527221035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240527221035/sag/6.png",
-            "/home/che/data/mri_images/train/01240527221035/tra/3-4.png"
+            "/mri_images/train/01240527221035/sag/6.png",
+            "/mri_images/train/01240527221035/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1075,8 +1075,8 @@
         "id": "01240527221035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240527221035/sag/6.png",
-            "/home/che/data/mri_images/train/01240527221035/tra/4-5.png"
+            "/mri_images/train/01240527221035/sag/6.png",
+            "/mri_images/train/01240527221035/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1091,8 +1091,8 @@
         "id": "01240527221035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240527221035/sag/6.png",
-            "/home/che/data/mri_images/train/01240527221035/tra/5-6.png"
+            "/mri_images/train/01240527221035/sag/6.png",
+            "/mri_images/train/01240527221035/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1107,8 +1107,8 @@
         "id": "01240527221035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240527221035/sag/6.png",
-            "/home/che/data/mri_images/train/01240527221035/tra/6-7.png"
+            "/mri_images/train/01240527221035/sag/6.png",
+            "/mri_images/train/01240527221035/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1123,8 +1123,8 @@
         "id": "02240509215044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215044/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215044/tra/2-3.png"
+            "/mri_images/train/02240509215044/sag/6.png",
+            "/mri_images/train/02240509215044/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -1139,8 +1139,8 @@
         "id": "02240509215044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215044/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215044/tra/3-4.png"
+            "/mri_images/train/02240509215044/sag/6.png",
+            "/mri_images/train/02240509215044/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1155,8 +1155,8 @@
         "id": "02240509215044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215044/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215044/tra/4-5.png"
+            "/mri_images/train/02240509215044/sag/6.png",
+            "/mri_images/train/02240509215044/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1171,8 +1171,8 @@
         "id": "02240509215044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215044/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215044/tra/5-6.png"
+            "/mri_images/train/02240509215044/sag/6.png",
+            "/mri_images/train/02240509215044/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1187,8 +1187,8 @@
         "id": "02240509215044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215044/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215044/tra/6-7.png"
+            "/mri_images/train/02240509215044/sag/6.png",
+            "/mri_images/train/02240509215044/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1203,8 +1203,8 @@
         "id": "01240504215004",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240504215004/sag/6.png",
-            "/home/che/data/mri_images/train/01240504215004/tra/2-3.png"
+            "/mri_images/train/01240504215004/sag/6.png",
+            "/mri_images/train/01240504215004/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1219,8 +1219,8 @@
         "id": "01240504215004",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240504215004/sag/6.png",
-            "/home/che/data/mri_images/train/01240504215004/tra/3-4.png"
+            "/mri_images/train/01240504215004/sag/6.png",
+            "/mri_images/train/01240504215004/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1235,8 +1235,8 @@
         "id": "01240504215004",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240504215004/sag/6.png",
-            "/home/che/data/mri_images/train/01240504215004/tra/4-5.png"
+            "/mri_images/train/01240504215004/sag/6.png",
+            "/mri_images/train/01240504215004/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1251,8 +1251,8 @@
         "id": "01240504215004",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240504215004/sag/6.png",
-            "/home/che/data/mri_images/train/01240504215004/tra/5-6.png"
+            "/mri_images/train/01240504215004/sag/6.png",
+            "/mri_images/train/01240504215004/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1267,8 +1267,8 @@
         "id": "01240504215004",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240504215004/sag/6.png",
-            "/home/che/data/mri_images/train/01240504215004/tra/6-7.png"
+            "/mri_images/train/01240504215004/sag/6.png",
+            "/mri_images/train/01240504215004/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -1283,8 +1283,8 @@
         "id": "01240522215046",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215046/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215046/tra/2-3.png"
+            "/mri_images/train/01240522215046/sag/6.png",
+            "/mri_images/train/01240522215046/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1299,8 +1299,8 @@
         "id": "01240522215046",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215046/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215046/tra/3-4.png"
+            "/mri_images/train/01240522215046/sag/6.png",
+            "/mri_images/train/01240522215046/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1315,8 +1315,8 @@
         "id": "01240522215046",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215046/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215046/tra/4-5.png"
+            "/mri_images/train/01240522215046/sag/6.png",
+            "/mri_images/train/01240522215046/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1331,8 +1331,8 @@
         "id": "01240522215046",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215046/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215046/tra/5-6.png"
+            "/mri_images/train/01240522215046/sag/6.png",
+            "/mri_images/train/01240522215046/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1347,8 +1347,8 @@
         "id": "01240522215046",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215046/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215046/tra/6-7.png"
+            "/mri_images/train/01240522215046/sag/6.png",
+            "/mri_images/train/01240522215046/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -1363,8 +1363,8 @@
         "id": "01240426218043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426218043/sag/6.png",
-            "/home/che/data/mri_images/train/01240426218043/tra/2-3.png"
+            "/mri_images/train/01240426218043/sag/6.png",
+            "/mri_images/train/01240426218043/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1379,8 +1379,8 @@
         "id": "01240426218043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426218043/sag/6.png",
-            "/home/che/data/mri_images/train/01240426218043/tra/3-4.png"
+            "/mri_images/train/01240426218043/sag/6.png",
+            "/mri_images/train/01240426218043/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1395,8 +1395,8 @@
         "id": "01240426218043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426218043/sag/6.png",
-            "/home/che/data/mri_images/train/01240426218043/tra/4-5.png"
+            "/mri_images/train/01240426218043/sag/6.png",
+            "/mri_images/train/01240426218043/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1411,8 +1411,8 @@
         "id": "01240426218043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426218043/sag/6.png",
-            "/home/che/data/mri_images/train/01240426218043/tra/5-6.png"
+            "/mri_images/train/01240426218043/sag/6.png",
+            "/mri_images/train/01240426218043/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1427,8 +1427,8 @@
         "id": "01240426218043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426218043/sag/6.png",
-            "/home/che/data/mri_images/train/01240426218043/tra/6-7.png"
+            "/mri_images/train/01240426218043/sag/6.png",
+            "/mri_images/train/01240426218043/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1443,8 +1443,8 @@
         "id": "01240602212025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602212025/sag/6.png",
-            "/home/che/data/mri_images/train/01240602212025/tra/2-3.png"
+            "/mri_images/train/01240602212025/sag/6.png",
+            "/mri_images/train/01240602212025/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1459,8 +1459,8 @@
         "id": "01240602212025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602212025/sag/6.png",
-            "/home/che/data/mri_images/train/01240602212025/tra/3-4.png"
+            "/mri_images/train/01240602212025/sag/6.png",
+            "/mri_images/train/01240602212025/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -1475,8 +1475,8 @@
         "id": "01240602212025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602212025/sag/6.png",
-            "/home/che/data/mri_images/train/01240602212025/tra/4-5.png"
+            "/mri_images/train/01240602212025/sag/6.png",
+            "/mri_images/train/01240602212025/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1491,8 +1491,8 @@
         "id": "01240602212025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602212025/sag/6.png",
-            "/home/che/data/mri_images/train/01240602212025/tra/5-6.png"
+            "/mri_images/train/01240602212025/sag/6.png",
+            "/mri_images/train/01240602212025/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1507,8 +1507,8 @@
         "id": "01240602212025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602212025/sag/6.png",
-            "/home/che/data/mri_images/train/01240602212025/tra/6-7.png"
+            "/mri_images/train/01240602212025/sag/6.png",
+            "/mri_images/train/01240602212025/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -1523,8 +1523,8 @@
         "id": "01240513221132",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221132/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221132/tra/2-3.png"
+            "/mri_images/train/01240513221132/sag/6.png",
+            "/mri_images/train/01240513221132/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1539,8 +1539,8 @@
         "id": "01240513221132",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221132/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221132/tra/3-4.png"
+            "/mri_images/train/01240513221132/sag/6.png",
+            "/mri_images/train/01240513221132/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1555,8 +1555,8 @@
         "id": "01240513221132",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221132/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221132/tra/4-5.png"
+            "/mri_images/train/01240513221132/sag/6.png",
+            "/mri_images/train/01240513221132/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1571,8 +1571,8 @@
         "id": "01240513221132",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221132/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221132/tra/5-6.png"
+            "/mri_images/train/01240513221132/sag/6.png",
+            "/mri_images/train/01240513221132/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1587,8 +1587,8 @@
         "id": "01240513221132",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221132/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221132/tra/6-7.png"
+            "/mri_images/train/01240513221132/sag/6.png",
+            "/mri_images/train/01240513221132/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -1603,8 +1603,8 @@
         "id": "02240514217065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514217065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514217065/tra/2-3.png"
+            "/mri_images/train/02240514217065/sag/6.png",
+            "/mri_images/train/02240514217065/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1619,8 +1619,8 @@
         "id": "02240514217065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514217065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514217065/tra/3-4.png"
+            "/mri_images/train/02240514217065/sag/6.png",
+            "/mri_images/train/02240514217065/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1635,8 +1635,8 @@
         "id": "02240514217065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514217065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514217065/tra/4-5.png"
+            "/mri_images/train/02240514217065/sag/6.png",
+            "/mri_images/train/02240514217065/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1651,8 +1651,8 @@
         "id": "02240514217065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514217065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514217065/tra/5-6.png"
+            "/mri_images/train/02240514217065/sag/6.png",
+            "/mri_images/train/02240514217065/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1667,8 +1667,8 @@
         "id": "02240514217065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514217065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514217065/tra/6-7.png"
+            "/mri_images/train/02240514217065/sag/6.png",
+            "/mri_images/train/02240514217065/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1683,8 +1683,8 @@
         "id": "01240513214084",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513214084/sag/6.png",
-            "/home/che/data/mri_images/train/01240513214084/tra/2-3.png"
+            "/mri_images/train/01240513214084/sag/6.png",
+            "/mri_images/train/01240513214084/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1699,8 +1699,8 @@
         "id": "01240513214084",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513214084/sag/6.png",
-            "/home/che/data/mri_images/train/01240513214084/tra/3-4.png"
+            "/mri_images/train/01240513214084/sag/6.png",
+            "/mri_images/train/01240513214084/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -1715,8 +1715,8 @@
         "id": "01240513214084",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513214084/sag/6.png",
-            "/home/che/data/mri_images/train/01240513214084/tra/4-5.png"
+            "/mri_images/train/01240513214084/sag/6.png",
+            "/mri_images/train/01240513214084/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1731,8 +1731,8 @@
         "id": "01240513214084",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513214084/sag/6.png",
-            "/home/che/data/mri_images/train/01240513214084/tra/5-6.png"
+            "/mri_images/train/01240513214084/sag/6.png",
+            "/mri_images/train/01240513214084/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1747,8 +1747,8 @@
         "id": "01240513214084",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513214084/sag/6.png",
-            "/home/che/data/mri_images/train/01240513214084/tra/6-7.png"
+            "/mri_images/train/01240513214084/sag/6.png",
+            "/mri_images/train/01240513214084/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -1763,8 +1763,8 @@
         "id": "02240520214056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520214056/sag/6.png",
-            "/home/che/data/mri_images/train/02240520214056/tra/2-3.png"
+            "/mri_images/train/02240520214056/sag/6.png",
+            "/mri_images/train/02240520214056/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -1779,8 +1779,8 @@
         "id": "02240520214056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520214056/sag/6.png",
-            "/home/che/data/mri_images/train/02240520214056/tra/3-4.png"
+            "/mri_images/train/02240520214056/sag/6.png",
+            "/mri_images/train/02240520214056/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1795,8 +1795,8 @@
         "id": "02240520214056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520214056/sag/6.png",
-            "/home/che/data/mri_images/train/02240520214056/tra/4-5.png"
+            "/mri_images/train/02240520214056/sag/6.png",
+            "/mri_images/train/02240520214056/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1811,8 +1811,8 @@
         "id": "02240520214056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520214056/sag/6.png",
-            "/home/che/data/mri_images/train/02240520214056/tra/5-6.png"
+            "/mri_images/train/02240520214056/sag/6.png",
+            "/mri_images/train/02240520214056/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1827,8 +1827,8 @@
         "id": "02240520214056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520214056/sag/6.png",
-            "/home/che/data/mri_images/train/02240520214056/tra/6-7.png"
+            "/mri_images/train/02240520214056/sag/6.png",
+            "/mri_images/train/02240520214056/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1843,8 +1843,8 @@
         "id": "01240524216020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524216020/sag/6.png",
-            "/home/che/data/mri_images/train/01240524216020/tra/2-3.png"
+            "/mri_images/train/01240524216020/sag/6.png",
+            "/mri_images/train/01240524216020/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -1859,8 +1859,8 @@
         "id": "01240524216020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524216020/sag/6.png",
-            "/home/che/data/mri_images/train/01240524216020/tra/3-4.png"
+            "/mri_images/train/01240524216020/sag/6.png",
+            "/mri_images/train/01240524216020/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1875,8 +1875,8 @@
         "id": "01240524216020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524216020/sag/6.png",
-            "/home/che/data/mri_images/train/01240524216020/tra/4-5.png"
+            "/mri_images/train/01240524216020/sag/6.png",
+            "/mri_images/train/01240524216020/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1891,8 +1891,8 @@
         "id": "01240524216020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524216020/sag/6.png",
-            "/home/che/data/mri_images/train/01240524216020/tra/5-6.png"
+            "/mri_images/train/01240524216020/sag/6.png",
+            "/mri_images/train/01240524216020/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1907,8 +1907,8 @@
         "id": "01240524216020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524216020/sag/6.png",
-            "/home/che/data/mri_images/train/01240524216020/tra/6-7.png"
+            "/mri_images/train/01240524216020/sag/6.png",
+            "/mri_images/train/01240524216020/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -1923,8 +1923,8 @@
         "id": "01240415213025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240415213025/sag/6.png",
-            "/home/che/data/mri_images/train/01240415213025/tra/2-3.png"
+            "/mri_images/train/01240415213025/sag/6.png",
+            "/mri_images/train/01240415213025/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -1939,8 +1939,8 @@
         "id": "01240415213025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240415213025/sag/6.png",
-            "/home/che/data/mri_images/train/01240415213025/tra/3-4.png"
+            "/mri_images/train/01240415213025/sag/6.png",
+            "/mri_images/train/01240415213025/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -1955,8 +1955,8 @@
         "id": "01240415213025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240415213025/sag/6.png",
-            "/home/che/data/mri_images/train/01240415213025/tra/4-5.png"
+            "/mri_images/train/01240415213025/sag/6.png",
+            "/mri_images/train/01240415213025/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -1971,8 +1971,8 @@
         "id": "01240415213025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240415213025/sag/6.png",
-            "/home/che/data/mri_images/train/01240415213025/tra/5-6.png"
+            "/mri_images/train/01240415213025/sag/6.png",
+            "/mri_images/train/01240415213025/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -1987,8 +1987,8 @@
         "id": "01240415213025",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240415213025/sag/6.png",
-            "/home/che/data/mri_images/train/01240415213025/tra/6-7.png"
+            "/mri_images/train/01240415213025/sag/6.png",
+            "/mri_images/train/01240415213025/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2003,8 +2003,8 @@
         "id": "01240416210045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416210045/sag/6.png",
-            "/home/che/data/mri_images/train/01240416210045/tra/2-3.png"
+            "/mri_images/train/01240416210045/sag/6.png",
+            "/mri_images/train/01240416210045/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2019,8 +2019,8 @@
         "id": "01240416210045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416210045/sag/6.png",
-            "/home/che/data/mri_images/train/01240416210045/tra/3-4.png"
+            "/mri_images/train/01240416210045/sag/6.png",
+            "/mri_images/train/01240416210045/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -2035,8 +2035,8 @@
         "id": "01240416210045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416210045/sag/6.png",
-            "/home/che/data/mri_images/train/01240416210045/tra/4-5.png"
+            "/mri_images/train/01240416210045/sag/6.png",
+            "/mri_images/train/01240416210045/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2051,8 +2051,8 @@
         "id": "01240416210045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416210045/sag/6.png",
-            "/home/che/data/mri_images/train/01240416210045/tra/5-6.png"
+            "/mri_images/train/01240416210045/sag/6.png",
+            "/mri_images/train/01240416210045/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2067,8 +2067,8 @@
         "id": "01240416210045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416210045/sag/6.png",
-            "/home/che/data/mri_images/train/01240416210045/tra/6-7.png"
+            "/mri_images/train/01240416210045/sag/6.png",
+            "/mri_images/train/01240416210045/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2083,8 +2083,8 @@
         "id": "01240531221043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221043/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221043/tra/2-3.png"
+            "/mri_images/train/01240531221043/sag/6.png",
+            "/mri_images/train/01240531221043/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2099,8 +2099,8 @@
         "id": "01240531221043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221043/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221043/tra/3-4.png"
+            "/mri_images/train/01240531221043/sag/6.png",
+            "/mri_images/train/01240531221043/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2115,8 +2115,8 @@
         "id": "01240531221043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221043/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221043/tra/4-5.png"
+            "/mri_images/train/01240531221043/sag/6.png",
+            "/mri_images/train/01240531221043/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2131,8 +2131,8 @@
         "id": "01240531221043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221043/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221043/tra/5-6.png"
+            "/mri_images/train/01240531221043/sag/6.png",
+            "/mri_images/train/01240531221043/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2147,8 +2147,8 @@
         "id": "01240531221043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221043/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221043/tra/6-7.png"
+            "/mri_images/train/01240531221043/sag/6.png",
+            "/mri_images/train/01240531221043/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2163,8 +2163,8 @@
         "id": "01240514214052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214052/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214052/tra/2-3.png"
+            "/mri_images/train/01240514214052/sag/6.png",
+            "/mri_images/train/01240514214052/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2179,8 +2179,8 @@
         "id": "01240514214052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214052/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214052/tra/3-4.png"
+            "/mri_images/train/01240514214052/sag/6.png",
+            "/mri_images/train/01240514214052/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -2195,8 +2195,8 @@
         "id": "01240514214052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214052/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214052/tra/4-5.png"
+            "/mri_images/train/01240514214052/sag/6.png",
+            "/mri_images/train/01240514214052/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2211,8 +2211,8 @@
         "id": "01240514214052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214052/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214052/tra/5-6.png"
+            "/mri_images/train/01240514214052/sag/6.png",
+            "/mri_images/train/01240514214052/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2227,8 +2227,8 @@
         "id": "01240514214052",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214052/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214052/tra/6-7.png"
+            "/mri_images/train/01240514214052/sag/6.png",
+            "/mri_images/train/01240514214052/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2243,8 +2243,8 @@
         "id": "01240514214100",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214100/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214100/tra/2-3.png"
+            "/mri_images/train/01240514214100/sag/6.png",
+            "/mri_images/train/01240514214100/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2259,8 +2259,8 @@
         "id": "01240514214100",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214100/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214100/tra/3-4.png"
+            "/mri_images/train/01240514214100/sag/6.png",
+            "/mri_images/train/01240514214100/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2275,8 +2275,8 @@
         "id": "01240514214100",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214100/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214100/tra/4-5.png"
+            "/mri_images/train/01240514214100/sag/6.png",
+            "/mri_images/train/01240514214100/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2291,8 +2291,8 @@
         "id": "01240514214100",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214100/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214100/tra/5-6.png"
+            "/mri_images/train/01240514214100/sag/6.png",
+            "/mri_images/train/01240514214100/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "D.extrusion",
@@ -2307,8 +2307,8 @@
         "id": "01240514214100",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514214100/sag/6.png",
-            "/home/che/data/mri_images/train/01240514214100/tra/6-7.png"
+            "/mri_images/train/01240514214100/sag/6.png",
+            "/mri_images/train/01240514214100/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2323,8 +2323,8 @@
         "id": "01240515211031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515211031/sag/6.png",
-            "/home/che/data/mri_images/train/01240515211031/tra/2-3.png"
+            "/mri_images/train/01240515211031/sag/6.png",
+            "/mri_images/train/01240515211031/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2339,8 +2339,8 @@
         "id": "01240515211031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515211031/sag/6.png",
-            "/home/che/data/mri_images/train/01240515211031/tra/3-4.png"
+            "/mri_images/train/01240515211031/sag/6.png",
+            "/mri_images/train/01240515211031/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -2355,8 +2355,8 @@
         "id": "01240515211031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515211031/sag/6.png",
-            "/home/che/data/mri_images/train/01240515211031/tra/4-5.png"
+            "/mri_images/train/01240515211031/sag/6.png",
+            "/mri_images/train/01240515211031/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "A.normal",
@@ -2371,8 +2371,8 @@
         "id": "01240515211031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515211031/sag/6.png",
-            "/home/che/data/mri_images/train/01240515211031/tra/5-6.png"
+            "/mri_images/train/01240515211031/sag/6.png",
+            "/mri_images/train/01240515211031/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "A.normal",
@@ -2387,8 +2387,8 @@
         "id": "01240515211031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515211031/sag/6.png",
-            "/home/che/data/mri_images/train/01240515211031/tra/6-7.png"
+            "/mri_images/train/01240515211031/sag/6.png",
+            "/mri_images/train/01240515211031/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -2403,8 +2403,8 @@
         "id": "01240516221028",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516221028/sag/6.png",
-            "/home/che/data/mri_images/train/01240516221028/tra/2-3.png"
+            "/mri_images/train/01240516221028/sag/6.png",
+            "/mri_images/train/01240516221028/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -2419,8 +2419,8 @@
         "id": "01240516221028",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516221028/sag/6.png",
-            "/home/che/data/mri_images/train/01240516221028/tra/3-4.png"
+            "/mri_images/train/01240516221028/sag/6.png",
+            "/mri_images/train/01240516221028/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2435,8 +2435,8 @@
         "id": "01240516221028",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516221028/sag/6.png",
-            "/home/che/data/mri_images/train/01240516221028/tra/4-5.png"
+            "/mri_images/train/01240516221028/sag/6.png",
+            "/mri_images/train/01240516221028/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2451,8 +2451,8 @@
         "id": "01240516221028",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516221028/sag/6.png",
-            "/home/che/data/mri_images/train/01240516221028/tra/5-6.png"
+            "/mri_images/train/01240516221028/sag/6.png",
+            "/mri_images/train/01240516221028/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2467,8 +2467,8 @@
         "id": "01240516221028",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516221028/sag/6.png",
-            "/home/che/data/mri_images/train/01240516221028/tra/6-7.png"
+            "/mri_images/train/01240516221028/sag/6.png",
+            "/mri_images/train/01240516221028/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2483,8 +2483,8 @@
         "id": "01240416208050",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416208050/sag/6.png",
-            "/home/che/data/mri_images/train/01240416208050/tra/2-3.png"
+            "/mri_images/train/01240416208050/sag/6.png",
+            "/mri_images/train/01240416208050/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -2499,8 +2499,8 @@
         "id": "01240416208050",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416208050/sag/6.png",
-            "/home/che/data/mri_images/train/01240416208050/tra/3-4.png"
+            "/mri_images/train/01240416208050/sag/6.png",
+            "/mri_images/train/01240416208050/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2515,8 +2515,8 @@
         "id": "01240416208050",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416208050/sag/6.png",
-            "/home/che/data/mri_images/train/01240416208050/tra/4-5.png"
+            "/mri_images/train/01240416208050/sag/6.png",
+            "/mri_images/train/01240416208050/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2531,8 +2531,8 @@
         "id": "01240416208050",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416208050/sag/6.png",
-            "/home/che/data/mri_images/train/01240416208050/tra/5-6.png"
+            "/mri_images/train/01240416208050/sag/6.png",
+            "/mri_images/train/01240416208050/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2547,8 +2547,8 @@
         "id": "01240416208050",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240416208050/sag/6.png",
-            "/home/che/data/mri_images/train/01240416208050/tra/6-7.png"
+            "/mri_images/train/01240416208050/sag/6.png",
+            "/mri_images/train/01240416208050/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2563,8 +2563,8 @@
         "id": "02240524208019",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240524208019/sag/6.png",
-            "/home/che/data/mri_images/train/02240524208019/tra/2-3.png"
+            "/mri_images/train/02240524208019/sag/6.png",
+            "/mri_images/train/02240524208019/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2579,8 +2579,8 @@
         "id": "02240524208019",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240524208019/sag/6.png",
-            "/home/che/data/mri_images/train/02240524208019/tra/3-4.png"
+            "/mri_images/train/02240524208019/sag/6.png",
+            "/mri_images/train/02240524208019/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2595,8 +2595,8 @@
         "id": "02240524208019",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240524208019/sag/6.png",
-            "/home/che/data/mri_images/train/02240524208019/tra/4-5.png"
+            "/mri_images/train/02240524208019/sag/6.png",
+            "/mri_images/train/02240524208019/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2611,8 +2611,8 @@
         "id": "02240524208019",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240524208019/sag/6.png",
-            "/home/che/data/mri_images/train/02240524208019/tra/5-6.png"
+            "/mri_images/train/02240524208019/sag/6.png",
+            "/mri_images/train/02240524208019/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2627,8 +2627,8 @@
         "id": "02240524208019",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240524208019/sag/6.png",
-            "/home/che/data/mri_images/train/02240524208019/tra/6-7.png"
+            "/mri_images/train/02240524208019/sag/6.png",
+            "/mri_images/train/02240524208019/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2643,8 +2643,8 @@
         "id": "01240524218054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524218054/sag/6.png",
-            "/home/che/data/mri_images/train/01240524218054/tra/2-3.png"
+            "/mri_images/train/01240524218054/sag/6.png",
+            "/mri_images/train/01240524218054/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2659,8 +2659,8 @@
         "id": "01240524218054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524218054/sag/6.png",
-            "/home/che/data/mri_images/train/01240524218054/tra/3-4.png"
+            "/mri_images/train/01240524218054/sag/6.png",
+            "/mri_images/train/01240524218054/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -2675,8 +2675,8 @@
         "id": "01240524218054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524218054/sag/6.png",
-            "/home/che/data/mri_images/train/01240524218054/tra/4-5.png"
+            "/mri_images/train/01240524218054/sag/6.png",
+            "/mri_images/train/01240524218054/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "A.normal",
@@ -2691,8 +2691,8 @@
         "id": "01240524218054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524218054/sag/6.png",
-            "/home/che/data/mri_images/train/01240524218054/tra/5-6.png"
+            "/mri_images/train/01240524218054/sag/6.png",
+            "/mri_images/train/01240524218054/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "A.normal",
@@ -2707,8 +2707,8 @@
         "id": "01240524218054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524218054/sag/6.png",
-            "/home/che/data/mri_images/train/01240524218054/tra/6-7.png"
+            "/mri_images/train/01240524218054/sag/6.png",
+            "/mri_images/train/01240524218054/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2723,8 +2723,8 @@
         "id": "01240424208042",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208042/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208042/tra/2-3.png"
+            "/mri_images/train/01240424208042/sag/6.png",
+            "/mri_images/train/01240424208042/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2739,8 +2739,8 @@
         "id": "01240424208042",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208042/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208042/tra/3-4.png"
+            "/mri_images/train/01240424208042/sag/6.png",
+            "/mri_images/train/01240424208042/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "B.bulging",
@@ -2755,8 +2755,8 @@
         "id": "01240424208042",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208042/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208042/tra/4-5.png"
+            "/mri_images/train/01240424208042/sag/6.png",
+            "/mri_images/train/01240424208042/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2771,8 +2771,8 @@
         "id": "01240424208042",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208042/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208042/tra/5-6.png"
+            "/mri_images/train/01240424208042/sag/6.png",
+            "/mri_images/train/01240424208042/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2787,8 +2787,8 @@
         "id": "01240424208042",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208042/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208042/tra/6-7.png"
+            "/mri_images/train/01240424208042/sag/6.png",
+            "/mri_images/train/01240424208042/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -2803,8 +2803,8 @@
         "id": "02240521208053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240521208053/sag/6.png",
-            "/home/che/data/mri_images/train/02240521208053/tra/2-3.png"
+            "/mri_images/train/02240521208053/sag/6.png",
+            "/mri_images/train/02240521208053/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2819,8 +2819,8 @@
         "id": "02240521208053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240521208053/sag/6.png",
-            "/home/che/data/mri_images/train/02240521208053/tra/3-4.png"
+            "/mri_images/train/02240521208053/sag/6.png",
+            "/mri_images/train/02240521208053/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2835,8 +2835,8 @@
         "id": "02240521208053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240521208053/sag/6.png",
-            "/home/che/data/mri_images/train/02240521208053/tra/4-5.png"
+            "/mri_images/train/02240521208053/sag/6.png",
+            "/mri_images/train/02240521208053/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2851,8 +2851,8 @@
         "id": "02240521208053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240521208053/sag/6.png",
-            "/home/che/data/mri_images/train/02240521208053/tra/5-6.png"
+            "/mri_images/train/02240521208053/sag/6.png",
+            "/mri_images/train/02240521208053/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2867,8 +2867,8 @@
         "id": "02240521208053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240521208053/sag/6.png",
-            "/home/che/data/mri_images/train/02240521208053/tra/6-7.png"
+            "/mri_images/train/02240521208053/sag/6.png",
+            "/mri_images/train/02240521208053/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2883,8 +2883,8 @@
         "id": "01240520218027",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240520218027/sag/6.png",
-            "/home/che/data/mri_images/train/01240520218027/tra/2-3.png"
+            "/mri_images/train/01240520218027/sag/6.png",
+            "/mri_images/train/01240520218027/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2899,8 +2899,8 @@
         "id": "01240520218027",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240520218027/sag/6.png",
-            "/home/che/data/mri_images/train/01240520218027/tra/3-4.png"
+            "/mri_images/train/01240520218027/sag/6.png",
+            "/mri_images/train/01240520218027/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2915,8 +2915,8 @@
         "id": "01240520218027",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240520218027/sag/6.png",
-            "/home/che/data/mri_images/train/01240520218027/tra/4-5.png"
+            "/mri_images/train/01240520218027/sag/6.png",
+            "/mri_images/train/01240520218027/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -2931,8 +2931,8 @@
         "id": "01240520218027",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240520218027/sag/6.png",
-            "/home/che/data/mri_images/train/01240520218027/tra/5-6.png"
+            "/mri_images/train/01240520218027/sag/6.png",
+            "/mri_images/train/01240520218027/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -2947,8 +2947,8 @@
         "id": "01240520218027",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240520218027/sag/6.png",
-            "/home/che/data/mri_images/train/01240520218027/tra/6-7.png"
+            "/mri_images/train/01240520218027/sag/6.png",
+            "/mri_images/train/01240520218027/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -2963,8 +2963,8 @@
         "id": "02240520215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215038/tra/2-3.png"
+            "/mri_images/train/02240520215038/sag/6.png",
+            "/mri_images/train/02240520215038/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -2979,8 +2979,8 @@
         "id": "02240520215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215038/tra/3-4.png"
+            "/mri_images/train/02240520215038/sag/6.png",
+            "/mri_images/train/02240520215038/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -2995,8 +2995,8 @@
         "id": "02240520215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215038/tra/4-5.png"
+            "/mri_images/train/02240520215038/sag/6.png",
+            "/mri_images/train/02240520215038/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3011,8 +3011,8 @@
         "id": "02240520215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215038/tra/5-6.png"
+            "/mri_images/train/02240520215038/sag/6.png",
+            "/mri_images/train/02240520215038/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3027,8 +3027,8 @@
         "id": "02240520215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215038/tra/6-7.png"
+            "/mri_images/train/02240520215038/sag/6.png",
+            "/mri_images/train/02240520215038/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -3043,8 +3043,8 @@
         "id": "01240513221024",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221024/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221024/tra/2-3.png"
+            "/mri_images/train/01240513221024/sag/6.png",
+            "/mri_images/train/01240513221024/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3059,8 +3059,8 @@
         "id": "01240513221024",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221024/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221024/tra/3-4.png"
+            "/mri_images/train/01240513221024/sag/6.png",
+            "/mri_images/train/01240513221024/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3075,8 +3075,8 @@
         "id": "01240513221024",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221024/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221024/tra/4-5.png"
+            "/mri_images/train/01240513221024/sag/6.png",
+            "/mri_images/train/01240513221024/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3091,8 +3091,8 @@
         "id": "01240513221024",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221024/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221024/tra/5-6.png"
+            "/mri_images/train/01240513221024/sag/6.png",
+            "/mri_images/train/01240513221024/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3107,8 +3107,8 @@
         "id": "01240513221024",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240513221024/sag/6.png",
-            "/home/che/data/mri_images/train/01240513221024/tra/6-7.png"
+            "/mri_images/train/01240513221024/sag/6.png",
+            "/mri_images/train/01240513221024/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -3123,8 +3123,8 @@
         "id": "01240507210013",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240507210013/sag/6.png",
-            "/home/che/data/mri_images/train/01240507210013/tra/2-3.png"
+            "/mri_images/train/01240507210013/sag/6.png",
+            "/mri_images/train/01240507210013/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3139,8 +3139,8 @@
         "id": "01240507210013",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240507210013/sag/6.png",
-            "/home/che/data/mri_images/train/01240507210013/tra/3-4.png"
+            "/mri_images/train/01240507210013/sag/6.png",
+            "/mri_images/train/01240507210013/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "B.bulging",
@@ -3155,8 +3155,8 @@
         "id": "01240507210013",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240507210013/sag/6.png",
-            "/home/che/data/mri_images/train/01240507210013/tra/4-5.png"
+            "/mri_images/train/01240507210013/sag/6.png",
+            "/mri_images/train/01240507210013/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3171,8 +3171,8 @@
         "id": "01240507210013",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240507210013/sag/6.png",
-            "/home/che/data/mri_images/train/01240507210013/tra/5-6.png"
+            "/mri_images/train/01240507210013/sag/6.png",
+            "/mri_images/train/01240507210013/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3187,8 +3187,8 @@
         "id": "01240507210013",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240507210013/sag/6.png",
-            "/home/che/data/mri_images/train/01240507210013/tra/6-7.png"
+            "/mri_images/train/01240507210013/sag/6.png",
+            "/mri_images/train/01240507210013/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3203,8 +3203,8 @@
         "id": "01240601216008",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240601216008/sag/6.png",
-            "/home/che/data/mri_images/train/01240601216008/tra/2-3.png"
+            "/mri_images/train/01240601216008/sag/6.png",
+            "/mri_images/train/01240601216008/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3219,8 +3219,8 @@
         "id": "01240601216008",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240601216008/sag/6.png",
-            "/home/che/data/mri_images/train/01240601216008/tra/3-4.png"
+            "/mri_images/train/01240601216008/sag/6.png",
+            "/mri_images/train/01240601216008/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3235,8 +3235,8 @@
         "id": "01240601216008",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240601216008/sag/6.png",
-            "/home/che/data/mri_images/train/01240601216008/tra/4-5.png"
+            "/mri_images/train/01240601216008/sag/6.png",
+            "/mri_images/train/01240601216008/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3251,8 +3251,8 @@
         "id": "01240601216008",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240601216008/sag/6.png",
-            "/home/che/data/mri_images/train/01240601216008/tra/5-6.png"
+            "/mri_images/train/01240601216008/sag/6.png",
+            "/mri_images/train/01240601216008/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3267,8 +3267,8 @@
         "id": "01240601216008",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240601216008/sag/6.png",
-            "/home/che/data/mri_images/train/01240601216008/tra/6-7.png"
+            "/mri_images/train/01240601216008/sag/6.png",
+            "/mri_images/train/01240601216008/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3283,8 +3283,8 @@
         "id": "02240520215049",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215049/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215049/tra/2-3.png"
+            "/mri_images/train/02240520215049/sag/6.png",
+            "/mri_images/train/02240520215049/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -3299,8 +3299,8 @@
         "id": "02240520215049",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215049/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215049/tra/3-4.png"
+            "/mri_images/train/02240520215049/sag/6.png",
+            "/mri_images/train/02240520215049/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "D.extrusion",
@@ -3315,8 +3315,8 @@
         "id": "02240520215049",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215049/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215049/tra/4-5.png"
+            "/mri_images/train/02240520215049/sag/6.png",
+            "/mri_images/train/02240520215049/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3331,8 +3331,8 @@
         "id": "02240520215049",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215049/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215049/tra/5-6.png"
+            "/mri_images/train/02240520215049/sag/6.png",
+            "/mri_images/train/02240520215049/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3347,8 +3347,8 @@
         "id": "02240520215049",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215049/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215049/tra/6-7.png"
+            "/mri_images/train/02240520215049/sag/6.png",
+            "/mri_images/train/02240520215049/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3363,8 +3363,8 @@
         "id": "01240418208067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418208067/sag/6.png",
-            "/home/che/data/mri_images/train/01240418208067/tra/2-3.png"
+            "/mri_images/train/01240418208067/sag/6.png",
+            "/mri_images/train/01240418208067/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -3379,8 +3379,8 @@
         "id": "01240418208067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418208067/sag/6.png",
-            "/home/che/data/mri_images/train/01240418208067/tra/3-4.png"
+            "/mri_images/train/01240418208067/sag/6.png",
+            "/mri_images/train/01240418208067/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3395,8 +3395,8 @@
         "id": "01240418208067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418208067/sag/6.png",
-            "/home/che/data/mri_images/train/01240418208067/tra/4-5.png"
+            "/mri_images/train/01240418208067/sag/6.png",
+            "/mri_images/train/01240418208067/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3411,8 +3411,8 @@
         "id": "01240418208067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418208067/sag/6.png",
-            "/home/che/data/mri_images/train/01240418208067/tra/5-6.png"
+            "/mri_images/train/01240418208067/sag/6.png",
+            "/mri_images/train/01240418208067/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3427,8 +3427,8 @@
         "id": "01240418208067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418208067/sag/6.png",
-            "/home/che/data/mri_images/train/01240418208067/tra/6-7.png"
+            "/mri_images/train/01240418208067/sag/6.png",
+            "/mri_images/train/01240418208067/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3443,8 +3443,8 @@
         "id": "01240517214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240517214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240517214045/tra/2-3.png"
+            "/mri_images/train/01240517214045/sag/6.png",
+            "/mri_images/train/01240517214045/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3459,8 +3459,8 @@
         "id": "01240517214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240517214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240517214045/tra/3-4.png"
+            "/mri_images/train/01240517214045/sag/6.png",
+            "/mri_images/train/01240517214045/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3475,8 +3475,8 @@
         "id": "01240517214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240517214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240517214045/tra/4-5.png"
+            "/mri_images/train/01240517214045/sag/6.png",
+            "/mri_images/train/01240517214045/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3491,8 +3491,8 @@
         "id": "01240517214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240517214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240517214045/tra/5-6.png"
+            "/mri_images/train/01240517214045/sag/6.png",
+            "/mri_images/train/01240517214045/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3507,8 +3507,8 @@
         "id": "01240517214045",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240517214045/sag/6.png",
-            "/home/che/data/mri_images/train/01240517214045/tra/6-7.png"
+            "/mri_images/train/01240517214045/sag/6.png",
+            "/mri_images/train/01240517214045/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3523,8 +3523,8 @@
         "id": "01240519221015",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240519221015/sag/6.png",
-            "/home/che/data/mri_images/train/01240519221015/tra/2-3.png"
+            "/mri_images/train/01240519221015/sag/6.png",
+            "/mri_images/train/01240519221015/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3539,8 +3539,8 @@
         "id": "01240519221015",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240519221015/sag/6.png",
-            "/home/che/data/mri_images/train/01240519221015/tra/3-4.png"
+            "/mri_images/train/01240519221015/sag/6.png",
+            "/mri_images/train/01240519221015/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3555,8 +3555,8 @@
         "id": "01240519221015",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240519221015/sag/6.png",
-            "/home/che/data/mri_images/train/01240519221015/tra/4-5.png"
+            "/mri_images/train/01240519221015/sag/6.png",
+            "/mri_images/train/01240519221015/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3571,8 +3571,8 @@
         "id": "01240519221015",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240519221015/sag/6.png",
-            "/home/che/data/mri_images/train/01240519221015/tra/5-6.png"
+            "/mri_images/train/01240519221015/sag/6.png",
+            "/mri_images/train/01240519221015/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3587,8 +3587,8 @@
         "id": "01240519221015",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240519221015/sag/6.png",
-            "/home/che/data/mri_images/train/01240519221015/tra/6-7.png"
+            "/mri_images/train/01240519221015/sag/6.png",
+            "/mri_images/train/01240519221015/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -3603,8 +3603,8 @@
         "id": "01240429213007",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240429213007/sag/6.png",
-            "/home/che/data/mri_images/train/01240429213007/tra/2-3.png"
+            "/mri_images/train/01240429213007/sag/6.png",
+            "/mri_images/train/01240429213007/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3619,8 +3619,8 @@
         "id": "01240429213007",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240429213007/sag/6.png",
-            "/home/che/data/mri_images/train/01240429213007/tra/3-4.png"
+            "/mri_images/train/01240429213007/sag/6.png",
+            "/mri_images/train/01240429213007/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3635,8 +3635,8 @@
         "id": "01240429213007",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240429213007/sag/6.png",
-            "/home/che/data/mri_images/train/01240429213007/tra/4-5.png"
+            "/mri_images/train/01240429213007/sag/6.png",
+            "/mri_images/train/01240429213007/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3651,8 +3651,8 @@
         "id": "01240429213007",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240429213007/sag/6.png",
-            "/home/che/data/mri_images/train/01240429213007/tra/5-6.png"
+            "/mri_images/train/01240429213007/sag/6.png",
+            "/mri_images/train/01240429213007/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3667,8 +3667,8 @@
         "id": "01240429213007",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240429213007/sag/6.png",
-            "/home/che/data/mri_images/train/01240429213007/tra/6-7.png"
+            "/mri_images/train/01240429213007/sag/6.png",
+            "/mri_images/train/01240429213007/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3683,8 +3683,8 @@
         "id": "01240514221002",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221002/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221002/tra/2-3.png"
+            "/mri_images/train/01240514221002/sag/6.png",
+            "/mri_images/train/01240514221002/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3699,8 +3699,8 @@
         "id": "01240514221002",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221002/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221002/tra/3-4.png"
+            "/mri_images/train/01240514221002/sag/6.png",
+            "/mri_images/train/01240514221002/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -3715,8 +3715,8 @@
         "id": "01240514221002",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221002/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221002/tra/4-5.png"
+            "/mri_images/train/01240514221002/sag/6.png",
+            "/mri_images/train/01240514221002/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "A.normal",
@@ -3731,8 +3731,8 @@
         "id": "01240514221002",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221002/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221002/tra/5-6.png"
+            "/mri_images/train/01240514221002/sag/6.png",
+            "/mri_images/train/01240514221002/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "B.bulging",
@@ -3747,8 +3747,8 @@
         "id": "01240514221002",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221002/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221002/tra/6-7.png"
+            "/mri_images/train/01240514221002/sag/6.png",
+            "/mri_images/train/01240514221002/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -3763,8 +3763,8 @@
         "id": "01240425218066",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425218066/sag/6.png",
-            "/home/che/data/mri_images/train/01240425218066/tra/2-3.png"
+            "/mri_images/train/01240425218066/sag/6.png",
+            "/mri_images/train/01240425218066/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3779,8 +3779,8 @@
         "id": "01240425218066",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425218066/sag/6.png",
-            "/home/che/data/mri_images/train/01240425218066/tra/3-4.png"
+            "/mri_images/train/01240425218066/sag/6.png",
+            "/mri_images/train/01240425218066/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3795,8 +3795,8 @@
         "id": "01240425218066",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425218066/sag/6.png",
-            "/home/che/data/mri_images/train/01240425218066/tra/4-5.png"
+            "/mri_images/train/01240425218066/sag/6.png",
+            "/mri_images/train/01240425218066/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3811,8 +3811,8 @@
         "id": "01240425218066",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425218066/sag/6.png",
-            "/home/che/data/mri_images/train/01240425218066/tra/5-6.png"
+            "/mri_images/train/01240425218066/sag/6.png",
+            "/mri_images/train/01240425218066/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3827,8 +3827,8 @@
         "id": "01240425218066",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240425218066/sag/6.png",
-            "/home/che/data/mri_images/train/01240425218066/tra/6-7.png"
+            "/mri_images/train/01240425218066/sag/6.png",
+            "/mri_images/train/01240425218066/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -3843,8 +3843,8 @@
         "id": "01240430214067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430214067/sag/6.png",
-            "/home/che/data/mri_images/train/01240430214067/tra/2-3.png"
+            "/mri_images/train/01240430214067/sag/6.png",
+            "/mri_images/train/01240430214067/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3859,8 +3859,8 @@
         "id": "01240430214067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430214067/sag/6.png",
-            "/home/che/data/mri_images/train/01240430214067/tra/3-4.png"
+            "/mri_images/train/01240430214067/sag/6.png",
+            "/mri_images/train/01240430214067/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3875,8 +3875,8 @@
         "id": "01240430214067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430214067/sag/6.png",
-            "/home/che/data/mri_images/train/01240430214067/tra/4-5.png"
+            "/mri_images/train/01240430214067/sag/6.png",
+            "/mri_images/train/01240430214067/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3891,8 +3891,8 @@
         "id": "01240430214067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430214067/sag/6.png",
-            "/home/che/data/mri_images/train/01240430214067/tra/5-6.png"
+            "/mri_images/train/01240430214067/sag/6.png",
+            "/mri_images/train/01240430214067/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3907,8 +3907,8 @@
         "id": "01240430214067",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430214067/sag/6.png",
-            "/home/che/data/mri_images/train/01240430214067/tra/6-7.png"
+            "/mri_images/train/01240430214067/sag/6.png",
+            "/mri_images/train/01240430214067/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -3923,8 +3923,8 @@
         "id": "02240513201070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201070/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201070/tra/2-3.png"
+            "/mri_images/train/02240513201070/sag/6.png",
+            "/mri_images/train/02240513201070/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -3939,8 +3939,8 @@
         "id": "02240513201070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201070/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201070/tra/3-4.png"
+            "/mri_images/train/02240513201070/sag/6.png",
+            "/mri_images/train/02240513201070/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -3955,8 +3955,8 @@
         "id": "02240513201070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201070/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201070/tra/4-5.png"
+            "/mri_images/train/02240513201070/sag/6.png",
+            "/mri_images/train/02240513201070/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -3971,8 +3971,8 @@
         "id": "02240513201070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201070/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201070/tra/5-6.png"
+            "/mri_images/train/02240513201070/sag/6.png",
+            "/mri_images/train/02240513201070/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -3987,8 +3987,8 @@
         "id": "02240513201070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201070/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201070/tra/6-7.png"
+            "/mri_images/train/02240513201070/sag/6.png",
+            "/mri_images/train/02240513201070/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4003,8 +4003,8 @@
         "id": "01240419213044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419213044/sag/6.png",
-            "/home/che/data/mri_images/train/01240419213044/tra/2-3.png"
+            "/mri_images/train/01240419213044/sag/6.png",
+            "/mri_images/train/01240419213044/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -4019,8 +4019,8 @@
         "id": "01240419213044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419213044/sag/6.png",
-            "/home/che/data/mri_images/train/01240419213044/tra/3-4.png"
+            "/mri_images/train/01240419213044/sag/6.png",
+            "/mri_images/train/01240419213044/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4035,8 +4035,8 @@
         "id": "01240419213044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419213044/sag/6.png",
-            "/home/che/data/mri_images/train/01240419213044/tra/4-5.png"
+            "/mri_images/train/01240419213044/sag/6.png",
+            "/mri_images/train/01240419213044/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4051,8 +4051,8 @@
         "id": "01240419213044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419213044/sag/6.png",
-            "/home/che/data/mri_images/train/01240419213044/tra/5-6.png"
+            "/mri_images/train/01240419213044/sag/6.png",
+            "/mri_images/train/01240419213044/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4067,8 +4067,8 @@
         "id": "01240419213044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240419213044/sag/6.png",
-            "/home/che/data/mri_images/train/01240419213044/tra/6-7.png"
+            "/mri_images/train/01240419213044/sag/6.png",
+            "/mri_images/train/01240419213044/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4083,8 +4083,8 @@
         "id": "02240514214065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514214065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514214065/tra/2-3.png"
+            "/mri_images/train/02240514214065/sag/6.png",
+            "/mri_images/train/02240514214065/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -4099,8 +4099,8 @@
         "id": "02240514214065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514214065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514214065/tra/3-4.png"
+            "/mri_images/train/02240514214065/sag/6.png",
+            "/mri_images/train/02240514214065/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4115,8 +4115,8 @@
         "id": "02240514214065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514214065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514214065/tra/4-5.png"
+            "/mri_images/train/02240514214065/sag/6.png",
+            "/mri_images/train/02240514214065/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4131,8 +4131,8 @@
         "id": "02240514214065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514214065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514214065/tra/5-6.png"
+            "/mri_images/train/02240514214065/sag/6.png",
+            "/mri_images/train/02240514214065/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4147,8 +4147,8 @@
         "id": "02240514214065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240514214065/sag/6.png",
-            "/home/che/data/mri_images/train/02240514214065/tra/6-7.png"
+            "/mri_images/train/02240514214065/sag/6.png",
+            "/mri_images/train/02240514214065/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4163,88 +4163,8 @@
         "id": "01240515218024",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240515218024/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218024/tra/2-3.png"
-        ],
-        "object": "C2-C3",
-        "answer": "A.normal",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nBased on  input spine MR images, locate the C2-C3 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C2-C3 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C2-C3 intervertebral disc is protruding, return C.protrusion."
-            }
-        ]
-    },
-    {
-        "id": "01240515218024",
-        "task": "zjppt",
-        "image": [
-            "/home/che/data/mri_images/train/01240515218024/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218024/tra/3-4.png"
-        ],
-        "object": "C3-C4",
-        "answer": "C.protrusion",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nBased on  input spine MR images, locate the C3-C4 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C3-C4 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C3-C4 intervertebral disc is protruding, return C.protrusion."
-            }
-        ]
-    },
-    {
-        "id": "01240515218024",
-        "task": "zjppt",
-        "image": [
-            "/home/che/data/mri_images/train/01240515218024/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218024/tra/4-5.png"
-        ],
-        "object": "C4-C5",
-        "answer": "C.protrusion",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nBased on  input spine MR images, locate the C4-C5 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C4-C5 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C4-C5 intervertebral disc is protruding, return C.protrusion."
-            }
-        ]
-    },
-    {
-        "id": "01240515218024",
-        "task": "zjppt",
-        "image": [
-            "/home/che/data/mri_images/train/01240515218024/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218024/tra/5-6.png"
-        ],
-        "object": "C5-C6",
-        "answer": "C.protrusion",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nBased on  input spine MR images, locate the C5-C6 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C5-C6 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C5-C6 intervertebral disc is protruding, return C.protrusion."
-            }
-        ]
-    },
-    {
-        "id": "01240515218024",
-        "task": "zjppt",
-        "image": [
-            "/home/che/data/mri_images/train/01240515218024/sag/6.png",
-            "/home/che/data/mri_images/train/01240515218024/tra/6-7.png"
-        ],
-        "object": "C6-C7",
-        "answer": "A.normal",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nBased on  input spine MR images, locate the C6-C7 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C6-C7 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C6-C7 intervertebral disc is protruding, return C.protrusion."
-            }
-        ]
-    },
-    {
-        "id": "01240516215099",
-        "task": "zjppt",
-        "image": [
-            "/home/che/data/mri_images/train/01240516215099/sag/6.png",
-            "/home/che/data/mri_images/train/01240516215099/tra/2-3.png"
+            "/mri_images/train/01240515218024/sag/6.png",
+            "/mri_images/train/01240515218024/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -4256,11 +4176,91 @@
         ]
     },
     {
+        "id": "01240515218024",
+        "task": "zjppt",
+        "image": [
+            "/mri_images/train/01240515218024/sag/6.png",
+            "/mri_images/train/01240515218024/tra/3-4.png"
+        ],
+        "object": "C3-C4",
+        "answer": "C.protrusion",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on  input spine MR images, locate the C3-C4 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C3-C4 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C3-C4 intervertebral disc is protruding, return C.protrusion."
+            }
+        ]
+    },
+    {
+        "id": "01240515218024",
+        "task": "zjppt",
+        "image": [
+            "/mri_images/train/01240515218024/sag/6.png",
+            "/mri_images/train/01240515218024/tra/4-5.png"
+        ],
+        "object": "C4-C5",
+        "answer": "C.protrusion",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on  input spine MR images, locate the C4-C5 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C4-C5 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C4-C5 intervertebral disc is protruding, return C.protrusion."
+            }
+        ]
+    },
+    {
+        "id": "01240515218024",
+        "task": "zjppt",
+        "image": [
+            "/mri_images/train/01240515218024/sag/6.png",
+            "/mri_images/train/01240515218024/tra/5-6.png"
+        ],
+        "object": "C5-C6",
+        "answer": "C.protrusion",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on  input spine MR images, locate the C5-C6 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C5-C6 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C5-C6 intervertebral disc is protruding, return C.protrusion."
+            }
+        ]
+    },
+    {
+        "id": "01240515218024",
+        "task": "zjppt",
+        "image": [
+            "/mri_images/train/01240515218024/sag/6.png",
+            "/mri_images/train/01240515218024/tra/6-7.png"
+        ],
+        "object": "C6-C7",
+        "answer": "A.normal",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on  input spine MR images, locate the C6-C7 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C6-C7 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C6-C7 intervertebral disc is protruding, return C.protrusion."
+            }
+        ]
+    },
+    {
         "id": "01240516215099",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516215099/sag/6.png",
-            "/home/che/data/mri_images/train/01240516215099/tra/3-4.png"
+            "/mri_images/train/01240516215099/sag/6.png",
+            "/mri_images/train/01240516215099/tra/2-3.png"
+        ],
+        "object": "C2-C3",
+        "answer": "A.normal",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nBased on  input spine MR images, locate the C2-C3 intervertebral disc region in the sagittal image. <image>\nThen, refer to the axial image to assess the condition of the C2-C3 intervertebral disc. The possible options are: A.normal B.bulging C.protrusion D.extrusion. Only return the most appropriate category name. For example, if the  C2-C3 intervertebral disc is protruding, return C.protrusion."
+            }
+        ]
+    },
+    {
+        "id": "01240516215099",
+        "task": "zjppt",
+        "image": [
+            "/mri_images/train/01240516215099/sag/6.png",
+            "/mri_images/train/01240516215099/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4275,8 +4275,8 @@
         "id": "01240516215099",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516215099/sag/6.png",
-            "/home/che/data/mri_images/train/01240516215099/tra/4-5.png"
+            "/mri_images/train/01240516215099/sag/6.png",
+            "/mri_images/train/01240516215099/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4291,8 +4291,8 @@
         "id": "01240516215099",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516215099/sag/6.png",
-            "/home/che/data/mri_images/train/01240516215099/tra/5-6.png"
+            "/mri_images/train/01240516215099/sag/6.png",
+            "/mri_images/train/01240516215099/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4307,8 +4307,8 @@
         "id": "01240516215099",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240516215099/sag/6.png",
-            "/home/che/data/mri_images/train/01240516215099/tra/6-7.png"
+            "/mri_images/train/01240516215099/sag/6.png",
+            "/mri_images/train/01240516215099/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4323,8 +4323,8 @@
         "id": "01240522215054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215054/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215054/tra/2-3.png"
+            "/mri_images/train/01240522215054/sag/6.png",
+            "/mri_images/train/01240522215054/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -4339,8 +4339,8 @@
         "id": "01240522215054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215054/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215054/tra/3-4.png"
+            "/mri_images/train/01240522215054/sag/6.png",
+            "/mri_images/train/01240522215054/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "B.bulging",
@@ -4355,8 +4355,8 @@
         "id": "01240522215054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215054/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215054/tra/4-5.png"
+            "/mri_images/train/01240522215054/sag/6.png",
+            "/mri_images/train/01240522215054/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "B.bulging",
@@ -4371,8 +4371,8 @@
         "id": "01240522215054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215054/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215054/tra/5-6.png"
+            "/mri_images/train/01240522215054/sag/6.png",
+            "/mri_images/train/01240522215054/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "B.bulging",
@@ -4387,8 +4387,8 @@
         "id": "01240522215054",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522215054/sag/6.png",
-            "/home/che/data/mri_images/train/01240522215054/tra/6-7.png"
+            "/mri_images/train/01240522215054/sag/6.png",
+            "/mri_images/train/01240522215054/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "B.bulging",
@@ -4403,8 +4403,8 @@
         "id": "02240513201044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201044/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201044/tra/2-3.png"
+            "/mri_images/train/02240513201044/sag/6.png",
+            "/mri_images/train/02240513201044/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -4419,8 +4419,8 @@
         "id": "02240513201044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201044/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201044/tra/3-4.png"
+            "/mri_images/train/02240513201044/sag/6.png",
+            "/mri_images/train/02240513201044/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "D.extrusion",
@@ -4435,8 +4435,8 @@
         "id": "02240513201044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201044/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201044/tra/4-5.png"
+            "/mri_images/train/02240513201044/sag/6.png",
+            "/mri_images/train/02240513201044/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4451,8 +4451,8 @@
         "id": "02240513201044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201044/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201044/tra/5-6.png"
+            "/mri_images/train/02240513201044/sag/6.png",
+            "/mri_images/train/02240513201044/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4467,8 +4467,8 @@
         "id": "02240513201044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240513201044/sag/6.png",
-            "/home/che/data/mri_images/train/02240513201044/tra/6-7.png"
+            "/mri_images/train/02240513201044/sag/6.png",
+            "/mri_images/train/02240513201044/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4483,8 +4483,8 @@
         "id": "02240509215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215038/tra/2-3.png"
+            "/mri_images/train/02240509215038/sag/6.png",
+            "/mri_images/train/02240509215038/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -4499,8 +4499,8 @@
         "id": "02240509215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215038/tra/3-4.png"
+            "/mri_images/train/02240509215038/sag/6.png",
+            "/mri_images/train/02240509215038/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4515,8 +4515,8 @@
         "id": "02240509215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215038/tra/4-5.png"
+            "/mri_images/train/02240509215038/sag/6.png",
+            "/mri_images/train/02240509215038/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "D.extrusion",
@@ -4531,8 +4531,8 @@
         "id": "02240509215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215038/tra/5-6.png"
+            "/mri_images/train/02240509215038/sag/6.png",
+            "/mri_images/train/02240509215038/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "A.normal",
@@ -4547,8 +4547,8 @@
         "id": "02240509215038",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509215038/sag/6.png",
-            "/home/che/data/mri_images/train/02240509215038/tra/6-7.png"
+            "/mri_images/train/02240509215038/sag/6.png",
+            "/mri_images/train/02240509215038/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -4563,8 +4563,8 @@
         "id": "01240422212016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422212016/sag/6.png",
-            "/home/che/data/mri_images/train/01240422212016/tra/2-3.png"
+            "/mri_images/train/01240422212016/sag/6.png",
+            "/mri_images/train/01240422212016/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -4579,8 +4579,8 @@
         "id": "01240422212016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422212016/sag/6.png",
-            "/home/che/data/mri_images/train/01240422212016/tra/3-4.png"
+            "/mri_images/train/01240422212016/sag/6.png",
+            "/mri_images/train/01240422212016/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4595,8 +4595,8 @@
         "id": "01240422212016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422212016/sag/6.png",
-            "/home/che/data/mri_images/train/01240422212016/tra/4-5.png"
+            "/mri_images/train/01240422212016/sag/6.png",
+            "/mri_images/train/01240422212016/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4611,8 +4611,8 @@
         "id": "01240422212016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422212016/sag/6.png",
-            "/home/che/data/mri_images/train/01240422212016/tra/5-6.png"
+            "/mri_images/train/01240422212016/sag/6.png",
+            "/mri_images/train/01240422212016/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4627,8 +4627,8 @@
         "id": "01240422212016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422212016/sag/6.png",
-            "/home/che/data/mri_images/train/01240422212016/tra/6-7.png"
+            "/mri_images/train/01240422212016/sag/6.png",
+            "/mri_images/train/01240422212016/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4643,8 +4643,8 @@
         "id": "01240528208006",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528208006/sag/6.png",
-            "/home/che/data/mri_images/train/01240528208006/tra/2-3.png"
+            "/mri_images/train/01240528208006/sag/6.png",
+            "/mri_images/train/01240528208006/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -4659,8 +4659,8 @@
         "id": "01240528208006",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528208006/sag/6.png",
-            "/home/che/data/mri_images/train/01240528208006/tra/3-4.png"
+            "/mri_images/train/01240528208006/sag/6.png",
+            "/mri_images/train/01240528208006/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "B.bulging",
@@ -4675,8 +4675,8 @@
         "id": "01240528208006",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528208006/sag/6.png",
-            "/home/che/data/mri_images/train/01240528208006/tra/4-5.png"
+            "/mri_images/train/01240528208006/sag/6.png",
+            "/mri_images/train/01240528208006/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "B.bulging",
@@ -4691,8 +4691,8 @@
         "id": "01240528208006",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528208006/sag/6.png",
-            "/home/che/data/mri_images/train/01240528208006/tra/5-6.png"
+            "/mri_images/train/01240528208006/sag/6.png",
+            "/mri_images/train/01240528208006/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "B.bulging",
@@ -4707,8 +4707,8 @@
         "id": "01240528208006",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528208006/sag/6.png",
-            "/home/che/data/mri_images/train/01240528208006/tra/6-7.png"
+            "/mri_images/train/01240528208006/sag/6.png",
+            "/mri_images/train/01240528208006/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -4723,8 +4723,8 @@
         "id": "01240418210053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418210053/sag/6.png",
-            "/home/che/data/mri_images/train/01240418210053/tra/2-3.png"
+            "/mri_images/train/01240418210053/sag/6.png",
+            "/mri_images/train/01240418210053/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -4739,8 +4739,8 @@
         "id": "01240418210053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418210053/sag/6.png",
-            "/home/che/data/mri_images/train/01240418210053/tra/3-4.png"
+            "/mri_images/train/01240418210053/sag/6.png",
+            "/mri_images/train/01240418210053/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "D.extrusion",
@@ -4755,8 +4755,8 @@
         "id": "01240418210053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418210053/sag/6.png",
-            "/home/che/data/mri_images/train/01240418210053/tra/4-5.png"
+            "/mri_images/train/01240418210053/sag/6.png",
+            "/mri_images/train/01240418210053/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4771,8 +4771,8 @@
         "id": "01240418210053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418210053/sag/6.png",
-            "/home/che/data/mri_images/train/01240418210053/tra/5-6.png"
+            "/mri_images/train/01240418210053/sag/6.png",
+            "/mri_images/train/01240418210053/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4787,8 +4787,8 @@
         "id": "01240418210053",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418210053/sag/6.png",
-            "/home/che/data/mri_images/train/01240418210053/tra/6-7.png"
+            "/mri_images/train/01240418210053/sag/6.png",
+            "/mri_images/train/01240418210053/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4803,8 +4803,8 @@
         "id": "01240522221057",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522221057/sag/6.png",
-            "/home/che/data/mri_images/train/01240522221057/tra/2-3.png"
+            "/mri_images/train/01240522221057/sag/6.png",
+            "/mri_images/train/01240522221057/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -4819,8 +4819,8 @@
         "id": "01240522221057",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522221057/sag/6.png",
-            "/home/che/data/mri_images/train/01240522221057/tra/3-4.png"
+            "/mri_images/train/01240522221057/sag/6.png",
+            "/mri_images/train/01240522221057/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4835,8 +4835,8 @@
         "id": "01240522221057",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522221057/sag/6.png",
-            "/home/che/data/mri_images/train/01240522221057/tra/4-5.png"
+            "/mri_images/train/01240522221057/sag/6.png",
+            "/mri_images/train/01240522221057/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4851,8 +4851,8 @@
         "id": "01240522221057",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522221057/sag/6.png",
-            "/home/che/data/mri_images/train/01240522221057/tra/5-6.png"
+            "/mri_images/train/01240522221057/sag/6.png",
+            "/mri_images/train/01240522221057/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4867,8 +4867,8 @@
         "id": "01240522221057",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522221057/sag/6.png",
-            "/home/che/data/mri_images/train/01240522221057/tra/6-7.png"
+            "/mri_images/train/01240522221057/sag/6.png",
+            "/mri_images/train/01240522221057/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4883,8 +4883,8 @@
         "id": "02240520215051",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215051/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215051/tra/2-3.png"
+            "/mri_images/train/02240520215051/sag/6.png",
+            "/mri_images/train/02240520215051/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -4899,8 +4899,8 @@
         "id": "02240520215051",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215051/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215051/tra/3-4.png"
+            "/mri_images/train/02240520215051/sag/6.png",
+            "/mri_images/train/02240520215051/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4915,8 +4915,8 @@
         "id": "02240520215051",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215051/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215051/tra/4-5.png"
+            "/mri_images/train/02240520215051/sag/6.png",
+            "/mri_images/train/02240520215051/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -4931,8 +4931,8 @@
         "id": "02240520215051",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215051/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215051/tra/5-6.png"
+            "/mri_images/train/02240520215051/sag/6.png",
+            "/mri_images/train/02240520215051/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -4947,8 +4947,8 @@
         "id": "02240520215051",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240520215051/sag/6.png",
-            "/home/che/data/mri_images/train/02240520215051/tra/6-7.png"
+            "/mri_images/train/02240520215051/sag/6.png",
+            "/mri_images/train/02240520215051/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -4963,8 +4963,8 @@
         "id": "01240423211070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240423211070/sag/6.png",
-            "/home/che/data/mri_images/train/01240423211070/tra/2-3.png"
+            "/mri_images/train/01240423211070/sag/6.png",
+            "/mri_images/train/01240423211070/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -4979,8 +4979,8 @@
         "id": "01240423211070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240423211070/sag/6.png",
-            "/home/che/data/mri_images/train/01240423211070/tra/3-4.png"
+            "/mri_images/train/01240423211070/sag/6.png",
+            "/mri_images/train/01240423211070/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -4995,8 +4995,8 @@
         "id": "01240423211070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240423211070/sag/6.png",
-            "/home/che/data/mri_images/train/01240423211070/tra/4-5.png"
+            "/mri_images/train/01240423211070/sag/6.png",
+            "/mri_images/train/01240423211070/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5011,8 +5011,8 @@
         "id": "01240423211070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240423211070/sag/6.png",
-            "/home/che/data/mri_images/train/01240423211070/tra/5-6.png"
+            "/mri_images/train/01240423211070/sag/6.png",
+            "/mri_images/train/01240423211070/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5027,8 +5027,8 @@
         "id": "01240423211070",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240423211070/sag/6.png",
-            "/home/che/data/mri_images/train/01240423211070/tra/6-7.png"
+            "/mri_images/train/01240423211070/sag/6.png",
+            "/mri_images/train/01240423211070/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5043,8 +5043,8 @@
         "id": "02240509216065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509216065/sag/6.png",
-            "/home/che/data/mri_images/train/02240509216065/tra/2-3.png"
+            "/mri_images/train/02240509216065/sag/6.png",
+            "/mri_images/train/02240509216065/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5059,8 +5059,8 @@
         "id": "02240509216065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509216065/sag/6.png",
-            "/home/che/data/mri_images/train/02240509216065/tra/3-4.png"
+            "/mri_images/train/02240509216065/sag/6.png",
+            "/mri_images/train/02240509216065/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5075,8 +5075,8 @@
         "id": "02240509216065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509216065/sag/6.png",
-            "/home/che/data/mri_images/train/02240509216065/tra/4-5.png"
+            "/mri_images/train/02240509216065/sag/6.png",
+            "/mri_images/train/02240509216065/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5091,8 +5091,8 @@
         "id": "02240509216065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509216065/sag/6.png",
-            "/home/che/data/mri_images/train/02240509216065/tra/5-6.png"
+            "/mri_images/train/02240509216065/sag/6.png",
+            "/mri_images/train/02240509216065/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "A.normal",
@@ -5107,8 +5107,8 @@
         "id": "02240509216065",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/02240509216065/sag/6.png",
-            "/home/che/data/mri_images/train/02240509216065/tra/6-7.png"
+            "/mri_images/train/02240509216065/sag/6.png",
+            "/mri_images/train/02240509216065/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -5123,8 +5123,8 @@
         "id": "01240422219044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422219044/sag/6.png",
-            "/home/che/data/mri_images/train/01240422219044/tra/2-3.png"
+            "/mri_images/train/01240422219044/sag/6.png",
+            "/mri_images/train/01240422219044/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5139,8 +5139,8 @@
         "id": "01240422219044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422219044/sag/6.png",
-            "/home/che/data/mri_images/train/01240422219044/tra/3-4.png"
+            "/mri_images/train/01240422219044/sag/6.png",
+            "/mri_images/train/01240422219044/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5155,8 +5155,8 @@
         "id": "01240422219044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422219044/sag/6.png",
-            "/home/che/data/mri_images/train/01240422219044/tra/4-5.png"
+            "/mri_images/train/01240422219044/sag/6.png",
+            "/mri_images/train/01240422219044/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5171,8 +5171,8 @@
         "id": "01240422219044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422219044/sag/6.png",
-            "/home/che/data/mri_images/train/01240422219044/tra/5-6.png"
+            "/mri_images/train/01240422219044/sag/6.png",
+            "/mri_images/train/01240422219044/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5187,8 +5187,8 @@
         "id": "01240422219044",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240422219044/sag/6.png",
-            "/home/che/data/mri_images/train/01240422219044/tra/6-7.png"
+            "/mri_images/train/01240422219044/sag/6.png",
+            "/mri_images/train/01240422219044/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5203,8 +5203,8 @@
         "id": "01240424214020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424214020/sag/6.png",
-            "/home/che/data/mri_images/train/01240424214020/tra/2-3.png"
+            "/mri_images/train/01240424214020/sag/6.png",
+            "/mri_images/train/01240424214020/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5219,8 +5219,8 @@
         "id": "01240424214020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424214020/sag/6.png",
-            "/home/che/data/mri_images/train/01240424214020/tra/3-4.png"
+            "/mri_images/train/01240424214020/sag/6.png",
+            "/mri_images/train/01240424214020/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5235,8 +5235,8 @@
         "id": "01240424214020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424214020/sag/6.png",
-            "/home/che/data/mri_images/train/01240424214020/tra/4-5.png"
+            "/mri_images/train/01240424214020/sag/6.png",
+            "/mri_images/train/01240424214020/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5251,8 +5251,8 @@
         "id": "01240424214020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424214020/sag/6.png",
-            "/home/che/data/mri_images/train/01240424214020/tra/5-6.png"
+            "/mri_images/train/01240424214020/sag/6.png",
+            "/mri_images/train/01240424214020/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5267,8 +5267,8 @@
         "id": "01240424214020",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424214020/sag/6.png",
-            "/home/che/data/mri_images/train/01240424214020/tra/6-7.png"
+            "/mri_images/train/01240424214020/sag/6.png",
+            "/mri_images/train/01240424214020/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5283,8 +5283,8 @@
         "id": "01240524221001",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524221001/sag/6.png",
-            "/home/che/data/mri_images/train/01240524221001/tra/2-3.png"
+            "/mri_images/train/01240524221001/sag/6.png",
+            "/mri_images/train/01240524221001/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5299,8 +5299,8 @@
         "id": "01240524221001",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524221001/sag/6.png",
-            "/home/che/data/mri_images/train/01240524221001/tra/3-4.png"
+            "/mri_images/train/01240524221001/sag/6.png",
+            "/mri_images/train/01240524221001/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5315,8 +5315,8 @@
         "id": "01240524221001",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524221001/sag/6.png",
-            "/home/che/data/mri_images/train/01240524221001/tra/4-5.png"
+            "/mri_images/train/01240524221001/sag/6.png",
+            "/mri_images/train/01240524221001/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5331,8 +5331,8 @@
         "id": "01240524221001",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524221001/sag/6.png",
-            "/home/che/data/mri_images/train/01240524221001/tra/5-6.png"
+            "/mri_images/train/01240524221001/sag/6.png",
+            "/mri_images/train/01240524221001/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5347,8 +5347,8 @@
         "id": "01240524221001",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524221001/sag/6.png",
-            "/home/che/data/mri_images/train/01240524221001/tra/6-7.png"
+            "/mri_images/train/01240524221001/sag/6.png",
+            "/mri_images/train/01240524221001/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5363,8 +5363,8 @@
         "id": "01240426214098",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214098/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214098/tra/2-3.png"
+            "/mri_images/train/01240426214098/sag/6.png",
+            "/mri_images/train/01240426214098/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -5379,8 +5379,8 @@
         "id": "01240426214098",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214098/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214098/tra/3-4.png"
+            "/mri_images/train/01240426214098/sag/6.png",
+            "/mri_images/train/01240426214098/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5395,8 +5395,8 @@
         "id": "01240426214098",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214098/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214098/tra/4-5.png"
+            "/mri_images/train/01240426214098/sag/6.png",
+            "/mri_images/train/01240426214098/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5411,8 +5411,8 @@
         "id": "01240426214098",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214098/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214098/tra/5-6.png"
+            "/mri_images/train/01240426214098/sag/6.png",
+            "/mri_images/train/01240426214098/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5427,8 +5427,8 @@
         "id": "01240426214098",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426214098/sag/6.png",
-            "/home/che/data/mri_images/train/01240426214098/tra/6-7.png"
+            "/mri_images/train/01240426214098/sag/6.png",
+            "/mri_images/train/01240426214098/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -5443,8 +5443,8 @@
         "id": "01240522214016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522214016/sag/6.png",
-            "/home/che/data/mri_images/train/01240522214016/tra/2-3.png"
+            "/mri_images/train/01240522214016/sag/6.png",
+            "/mri_images/train/01240522214016/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5459,8 +5459,8 @@
         "id": "01240522214016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522214016/sag/6.png",
-            "/home/che/data/mri_images/train/01240522214016/tra/3-4.png"
+            "/mri_images/train/01240522214016/sag/6.png",
+            "/mri_images/train/01240522214016/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5475,8 +5475,8 @@
         "id": "01240522214016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522214016/sag/6.png",
-            "/home/che/data/mri_images/train/01240522214016/tra/4-5.png"
+            "/mri_images/train/01240522214016/sag/6.png",
+            "/mri_images/train/01240522214016/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5491,8 +5491,8 @@
         "id": "01240522214016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522214016/sag/6.png",
-            "/home/che/data/mri_images/train/01240522214016/tra/5-6.png"
+            "/mri_images/train/01240522214016/sag/6.png",
+            "/mri_images/train/01240522214016/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5507,8 +5507,8 @@
         "id": "01240522214016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240522214016/sag/6.png",
-            "/home/che/data/mri_images/train/01240522214016/tra/6-7.png"
+            "/mri_images/train/01240522214016/sag/6.png",
+            "/mri_images/train/01240522214016/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5523,8 +5523,8 @@
         "id": "01240514221056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221056/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221056/tra/2-3.png"
+            "/mri_images/train/01240514221056/sag/6.png",
+            "/mri_images/train/01240514221056/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5539,8 +5539,8 @@
         "id": "01240514221056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221056/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221056/tra/3-4.png"
+            "/mri_images/train/01240514221056/sag/6.png",
+            "/mri_images/train/01240514221056/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5555,8 +5555,8 @@
         "id": "01240514221056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221056/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221056/tra/4-5.png"
+            "/mri_images/train/01240514221056/sag/6.png",
+            "/mri_images/train/01240514221056/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5571,8 +5571,8 @@
         "id": "01240514221056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221056/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221056/tra/5-6.png"
+            "/mri_images/train/01240514221056/sag/6.png",
+            "/mri_images/train/01240514221056/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5587,8 +5587,8 @@
         "id": "01240514221056",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240514221056/sag/6.png",
-            "/home/che/data/mri_images/train/01240514221056/tra/6-7.png"
+            "/mri_images/train/01240514221056/sag/6.png",
+            "/mri_images/train/01240514221056/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5603,8 +5603,8 @@
         "id": "01240424208097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208097/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208097/tra/2-3.png"
+            "/mri_images/train/01240424208097/sag/6.png",
+            "/mri_images/train/01240424208097/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5619,8 +5619,8 @@
         "id": "01240424208097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208097/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208097/tra/3-4.png"
+            "/mri_images/train/01240424208097/sag/6.png",
+            "/mri_images/train/01240424208097/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5635,8 +5635,8 @@
         "id": "01240424208097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208097/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208097/tra/4-5.png"
+            "/mri_images/train/01240424208097/sag/6.png",
+            "/mri_images/train/01240424208097/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5651,8 +5651,8 @@
         "id": "01240424208097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208097/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208097/tra/5-6.png"
+            "/mri_images/train/01240424208097/sag/6.png",
+            "/mri_images/train/01240424208097/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5667,8 +5667,8 @@
         "id": "01240424208097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240424208097/sag/6.png",
-            "/home/che/data/mri_images/train/01240424208097/tra/6-7.png"
+            "/mri_images/train/01240424208097/sag/6.png",
+            "/mri_images/train/01240424208097/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "B.bulging",
@@ -5683,8 +5683,8 @@
         "id": "01240602216035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602216035/sag/6.png",
-            "/home/che/data/mri_images/train/01240602216035/tra/2-3.png"
+            "/mri_images/train/01240602216035/sag/6.png",
+            "/mri_images/train/01240602216035/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "C.protrusion",
@@ -5699,8 +5699,8 @@
         "id": "01240602216035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602216035/sag/6.png",
-            "/home/che/data/mri_images/train/01240602216035/tra/3-4.png"
+            "/mri_images/train/01240602216035/sag/6.png",
+            "/mri_images/train/01240602216035/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5715,8 +5715,8 @@
         "id": "01240602216035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602216035/sag/6.png",
-            "/home/che/data/mri_images/train/01240602216035/tra/4-5.png"
+            "/mri_images/train/01240602216035/sag/6.png",
+            "/mri_images/train/01240602216035/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5731,8 +5731,8 @@
         "id": "01240602216035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602216035/sag/6.png",
-            "/home/che/data/mri_images/train/01240602216035/tra/5-6.png"
+            "/mri_images/train/01240602216035/sag/6.png",
+            "/mri_images/train/01240602216035/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5747,8 +5747,8 @@
         "id": "01240602216035",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240602216035/sag/6.png",
-            "/home/che/data/mri_images/train/01240602216035/tra/6-7.png"
+            "/mri_images/train/01240602216035/sag/6.png",
+            "/mri_images/train/01240602216035/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5763,8 +5763,8 @@
         "id": "01240524210043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524210043/sag/6.png",
-            "/home/che/data/mri_images/train/01240524210043/tra/2-3.png"
+            "/mri_images/train/01240524210043/sag/6.png",
+            "/mri_images/train/01240524210043/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5779,8 +5779,8 @@
         "id": "01240524210043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524210043/sag/6.png",
-            "/home/che/data/mri_images/train/01240524210043/tra/3-4.png"
+            "/mri_images/train/01240524210043/sag/6.png",
+            "/mri_images/train/01240524210043/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5795,8 +5795,8 @@
         "id": "01240524210043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524210043/sag/6.png",
-            "/home/che/data/mri_images/train/01240524210043/tra/4-5.png"
+            "/mri_images/train/01240524210043/sag/6.png",
+            "/mri_images/train/01240524210043/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5811,8 +5811,8 @@
         "id": "01240524210043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524210043/sag/6.png",
-            "/home/che/data/mri_images/train/01240524210043/tra/5-6.png"
+            "/mri_images/train/01240524210043/sag/6.png",
+            "/mri_images/train/01240524210043/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5827,8 +5827,8 @@
         "id": "01240524210043",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524210043/sag/6.png",
-            "/home/che/data/mri_images/train/01240524210043/tra/6-7.png"
+            "/mri_images/train/01240524210043/sag/6.png",
+            "/mri_images/train/01240524210043/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -5843,8 +5843,8 @@
         "id": "01240531221097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221097/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221097/tra/2-3.png"
+            "/mri_images/train/01240531221097/sag/6.png",
+            "/mri_images/train/01240531221097/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5859,8 +5859,8 @@
         "id": "01240531221097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221097/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221097/tra/3-4.png"
+            "/mri_images/train/01240531221097/sag/6.png",
+            "/mri_images/train/01240531221097/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5875,8 +5875,8 @@
         "id": "01240531221097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221097/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221097/tra/4-5.png"
+            "/mri_images/train/01240531221097/sag/6.png",
+            "/mri_images/train/01240531221097/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5891,8 +5891,8 @@
         "id": "01240531221097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221097/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221097/tra/5-6.png"
+            "/mri_images/train/01240531221097/sag/6.png",
+            "/mri_images/train/01240531221097/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5907,8 +5907,8 @@
         "id": "01240531221097",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240531221097/sag/6.png",
-            "/home/che/data/mri_images/train/01240531221097/tra/6-7.png"
+            "/mri_images/train/01240531221097/sag/6.png",
+            "/mri_images/train/01240531221097/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -5923,8 +5923,8 @@
         "id": "01240528221075",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528221075/sag/6.png",
-            "/home/che/data/mri_images/train/01240528221075/tra/2-3.png"
+            "/mri_images/train/01240528221075/sag/6.png",
+            "/mri_images/train/01240528221075/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -5939,8 +5939,8 @@
         "id": "01240528221075",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528221075/sag/6.png",
-            "/home/che/data/mri_images/train/01240528221075/tra/3-4.png"
+            "/mri_images/train/01240528221075/sag/6.png",
+            "/mri_images/train/01240528221075/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -5955,8 +5955,8 @@
         "id": "01240528221075",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528221075/sag/6.png",
-            "/home/che/data/mri_images/train/01240528221075/tra/4-5.png"
+            "/mri_images/train/01240528221075/sag/6.png",
+            "/mri_images/train/01240528221075/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -5971,8 +5971,8 @@
         "id": "01240528221075",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528221075/sag/6.png",
-            "/home/che/data/mri_images/train/01240528221075/tra/5-6.png"
+            "/mri_images/train/01240528221075/sag/6.png",
+            "/mri_images/train/01240528221075/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -5987,8 +5987,8 @@
         "id": "01240528221075",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240528221075/sag/6.png",
-            "/home/che/data/mri_images/train/01240528221075/tra/6-7.png"
+            "/mri_images/train/01240528221075/sag/6.png",
+            "/mri_images/train/01240528221075/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -6003,8 +6003,8 @@
         "id": "01240418211022",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418211022/sag/6.png",
-            "/home/che/data/mri_images/train/01240418211022/tra/2-3.png"
+            "/mri_images/train/01240418211022/sag/6.png",
+            "/mri_images/train/01240418211022/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -6019,8 +6019,8 @@
         "id": "01240418211022",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418211022/sag/6.png",
-            "/home/che/data/mri_images/train/01240418211022/tra/3-4.png"
+            "/mri_images/train/01240418211022/sag/6.png",
+            "/mri_images/train/01240418211022/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -6035,8 +6035,8 @@
         "id": "01240418211022",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418211022/sag/6.png",
-            "/home/che/data/mri_images/train/01240418211022/tra/4-5.png"
+            "/mri_images/train/01240418211022/sag/6.png",
+            "/mri_images/train/01240418211022/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -6051,8 +6051,8 @@
         "id": "01240418211022",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418211022/sag/6.png",
-            "/home/che/data/mri_images/train/01240418211022/tra/5-6.png"
+            "/mri_images/train/01240418211022/sag/6.png",
+            "/mri_images/train/01240418211022/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -6067,8 +6067,8 @@
         "id": "01240418211022",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240418211022/sag/6.png",
-            "/home/che/data/mri_images/train/01240418211022/tra/6-7.png"
+            "/mri_images/train/01240418211022/sag/6.png",
+            "/mri_images/train/01240418211022/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -6083,8 +6083,8 @@
         "id": "01240430218016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430218016/sag/6.png",
-            "/home/che/data/mri_images/train/01240430218016/tra/2-3.png"
+            "/mri_images/train/01240430218016/sag/6.png",
+            "/mri_images/train/01240430218016/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -6099,8 +6099,8 @@
         "id": "01240430218016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430218016/sag/6.png",
-            "/home/che/data/mri_images/train/01240430218016/tra/3-4.png"
+            "/mri_images/train/01240430218016/sag/6.png",
+            "/mri_images/train/01240430218016/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -6115,8 +6115,8 @@
         "id": "01240430218016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430218016/sag/6.png",
-            "/home/che/data/mri_images/train/01240430218016/tra/4-5.png"
+            "/mri_images/train/01240430218016/sag/6.png",
+            "/mri_images/train/01240430218016/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -6131,8 +6131,8 @@
         "id": "01240430218016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430218016/sag/6.png",
-            "/home/che/data/mri_images/train/01240430218016/tra/5-6.png"
+            "/mri_images/train/01240430218016/sag/6.png",
+            "/mri_images/train/01240430218016/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -6147,8 +6147,8 @@
         "id": "01240430218016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240430218016/sag/6.png",
-            "/home/che/data/mri_images/train/01240430218016/tra/6-7.png"
+            "/mri_images/train/01240430218016/sag/6.png",
+            "/mri_images/train/01240430218016/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -6163,8 +6163,8 @@
         "id": "01240426208003",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426208003/sag/6.png",
-            "/home/che/data/mri_images/train/01240426208003/tra/2-3.png"
+            "/mri_images/train/01240426208003/sag/6.png",
+            "/mri_images/train/01240426208003/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -6179,8 +6179,8 @@
         "id": "01240426208003",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426208003/sag/6.png",
-            "/home/che/data/mri_images/train/01240426208003/tra/3-4.png"
+            "/mri_images/train/01240426208003/sag/6.png",
+            "/mri_images/train/01240426208003/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "B.bulging",
@@ -6195,8 +6195,8 @@
         "id": "01240426208003",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426208003/sag/6.png",
-            "/home/che/data/mri_images/train/01240426208003/tra/4-5.png"
+            "/mri_images/train/01240426208003/sag/6.png",
+            "/mri_images/train/01240426208003/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "B.bulging",
@@ -6211,8 +6211,8 @@
         "id": "01240426208003",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426208003/sag/6.png",
-            "/home/che/data/mri_images/train/01240426208003/tra/5-6.png"
+            "/mri_images/train/01240426208003/sag/6.png",
+            "/mri_images/train/01240426208003/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "B.bulging",
@@ -6227,8 +6227,8 @@
         "id": "01240426208003",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426208003/sag/6.png",
-            "/home/che/data/mri_images/train/01240426208003/tra/6-7.png"
+            "/mri_images/train/01240426208003/sag/6.png",
+            "/mri_images/train/01240426208003/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",
@@ -6243,8 +6243,8 @@
         "id": "01240524208031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524208031/sag/6.png",
-            "/home/che/data/mri_images/train/01240524208031/tra/2-3.png"
+            "/mri_images/train/01240524208031/sag/6.png",
+            "/mri_images/train/01240524208031/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -6259,8 +6259,8 @@
         "id": "01240524208031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524208031/sag/6.png",
-            "/home/che/data/mri_images/train/01240524208031/tra/3-4.png"
+            "/mri_images/train/01240524208031/sag/6.png",
+            "/mri_images/train/01240524208031/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "A.normal",
@@ -6275,8 +6275,8 @@
         "id": "01240524208031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524208031/sag/6.png",
-            "/home/che/data/mri_images/train/01240524208031/tra/4-5.png"
+            "/mri_images/train/01240524208031/sag/6.png",
+            "/mri_images/train/01240524208031/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -6291,8 +6291,8 @@
         "id": "01240524208031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524208031/sag/6.png",
-            "/home/che/data/mri_images/train/01240524208031/tra/5-6.png"
+            "/mri_images/train/01240524208031/sag/6.png",
+            "/mri_images/train/01240524208031/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "C.protrusion",
@@ -6307,8 +6307,8 @@
         "id": "01240524208031",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240524208031/sag/6.png",
-            "/home/che/data/mri_images/train/01240524208031/tra/6-7.png"
+            "/mri_images/train/01240524208031/sag/6.png",
+            "/mri_images/train/01240524208031/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "C.protrusion",
@@ -6323,8 +6323,8 @@
         "id": "01240426219016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426219016/sag/6.png",
-            "/home/che/data/mri_images/train/01240426219016/tra/2-3.png"
+            "/mri_images/train/01240426219016/sag/6.png",
+            "/mri_images/train/01240426219016/tra/2-3.png"
         ],
         "object": "C2-C3",
         "answer": "A.normal",
@@ -6339,8 +6339,8 @@
         "id": "01240426219016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426219016/sag/6.png",
-            "/home/che/data/mri_images/train/01240426219016/tra/3-4.png"
+            "/mri_images/train/01240426219016/sag/6.png",
+            "/mri_images/train/01240426219016/tra/3-4.png"
         ],
         "object": "C3-C4",
         "answer": "C.protrusion",
@@ -6355,8 +6355,8 @@
         "id": "01240426219016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426219016/sag/6.png",
-            "/home/che/data/mri_images/train/01240426219016/tra/4-5.png"
+            "/mri_images/train/01240426219016/sag/6.png",
+            "/mri_images/train/01240426219016/tra/4-5.png"
         ],
         "object": "C4-C5",
         "answer": "C.protrusion",
@@ -6371,8 +6371,8 @@
         "id": "01240426219016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426219016/sag/6.png",
-            "/home/che/data/mri_images/train/01240426219016/tra/5-6.png"
+            "/mri_images/train/01240426219016/sag/6.png",
+            "/mri_images/train/01240426219016/tra/5-6.png"
         ],
         "object": "C5-C6",
         "answer": "A.normal",
@@ -6387,8 +6387,8 @@
         "id": "01240426219016",
         "task": "zjppt",
         "image": [
-            "/home/che/data/mri_images/train/01240426219016/sag/6.png",
-            "/home/che/data/mri_images/train/01240426219016/tra/6-7.png"
+            "/mri_images/train/01240426219016/sag/6.png",
+            "/mri_images/train/01240426219016/tra/6-7.png"
         ],
         "object": "C6-C7",
         "answer": "A.normal",

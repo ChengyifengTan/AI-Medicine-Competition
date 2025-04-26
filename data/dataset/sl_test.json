@@ -3,7 +3,7 @@
         "id": "01240516208018",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516208018/sag/6.png"
+            "/mri_images/test/01240516208018/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -18,7 +18,7 @@
         "id": "01240428212053",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240428212053/sag/6.png"
+            "/mri_images/test/01240428212053/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -33,7 +33,7 @@
         "id": "01240515216027",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240515216027/sag/6.png"
+            "/mri_images/test/01240515216027/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -48,7 +48,7 @@
         "id": "01240526221011",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240526221011/sag/6.png"
+            "/mri_images/test/01240526221011/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -63,7 +63,7 @@
         "id": "01240527221049",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240527221049/sag/6.png"
+            "/mri_images/test/01240527221049/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -78,7 +78,7 @@
         "id": "01240523221079",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240523221079/sag/6.png"
+            "/mri_images/test/01240523221079/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -93,7 +93,7 @@
         "id": "01240524218012",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240524218012/sag/6.png"
+            "/mri_images/test/01240524218012/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -108,7 +108,7 @@
         "id": "02240513201041",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240513201041/sag/6.png"
+            "/mri_images/test/02240513201041/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -123,7 +123,7 @@
         "id": "01240603214001",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240603214001/sag/6.png"
+            "/mri_images/test/01240603214001/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -138,7 +138,7 @@
         "id": "01240523221055",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240523221055/sag/6.png"
+            "/mri_images/test/01240523221055/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -153,7 +153,7 @@
         "id": "01240516214079",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516214079/sag/6.png"
+            "/mri_images/test/01240516214079/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -168,7 +168,7 @@
         "id": "01240418208075",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240418208075/sag/6.png"
+            "/mri_images/test/01240418208075/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -183,7 +183,7 @@
         "id": "01240423215107",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240423215107/sag/6.png"
+            "/mri_images/test/01240423215107/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -198,7 +198,7 @@
         "id": "01240420208021",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240420208021/sag/6.png"
+            "/mri_images/test/01240420208021/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -213,7 +213,7 @@
         "id": "01240516216048",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516216048/sag/6.png"
+            "/mri_images/test/01240516216048/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -228,7 +228,7 @@
         "id": "01240429208010",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240429208010/sag/6.png"
+            "/mri_images/test/01240429208010/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -243,7 +243,7 @@
         "id": "01240514221136",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240514221136/sag/6.png"
+            "/mri_images/test/01240514221136/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -258,7 +258,7 @@
         "id": "01240513215127",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240513215127/sag/6.png"
+            "/mri_images/test/01240513215127/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -273,7 +273,7 @@
         "id": "01240429219023",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240429219023/sag/6.png"
+            "/mri_images/test/01240429219023/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -288,7 +288,7 @@
         "id": "01240423210015",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240423210015/sag/6.png"
+            "/mri_images/test/01240423210015/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -303,7 +303,7 @@
         "id": "02240516218054",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240516218054/sag/6.png"
+            "/mri_images/test/02240516218054/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -318,7 +318,7 @@
         "id": "02240510215027",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240510215027/sag/6.png"
+            "/mri_images/test/02240510215027/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -333,7 +333,7 @@
         "id": "01240524211073",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240524211073/sag/6.png"
+            "/mri_images/test/01240524211073/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -348,7 +348,7 @@
         "id": "01240524208011",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240524208011/sag/6.png"
+            "/mri_images/test/01240524208011/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -363,7 +363,7 @@
         "id": "01240515221113",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240515221113/sag/6.png"
+            "/mri_images/test/01240515221113/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -378,7 +378,7 @@
         "id": "02240603208024",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240603208024/sag/6.png"
+            "/mri_images/test/02240603208024/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -393,7 +393,7 @@
         "id": "01240516221002",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516221002/sag/6.png"
+            "/mri_images/test/01240516221002/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -408,7 +408,7 @@
         "id": "01240419210136",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240419210136/sag/6.png"
+            "/mri_images/test/01240419210136/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -423,7 +423,7 @@
         "id": "01240519210001",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240519210001/sag/6.png"
+            "/mri_images/test/01240519210001/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -438,7 +438,7 @@
         "id": "01240429212018",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240429212018/sag/6.png"
+            "/mri_images/test/01240429212018/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -453,7 +453,7 @@
         "id": "02240510217074",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240510217074/sag/6.png"
+            "/mri_images/test/02240510217074/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -468,7 +468,7 @@
         "id": "01240522221119",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240522221119/sag/6.png"
+            "/mri_images/test/01240522221119/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -483,7 +483,7 @@
         "id": "01240601214002",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240601214002/sag/6.png"
+            "/mri_images/test/01240601214002/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -498,7 +498,7 @@
         "id": "01240514221090",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240514221090/sag/6.png"
+            "/mri_images/test/01240514221090/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -513,7 +513,7 @@
         "id": "01240520221067",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240520221067/sag/6.png"
+            "/mri_images/test/01240520221067/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -528,7 +528,7 @@
         "id": "01240527216024",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240527216024/sag/6.png"
+            "/mri_images/test/01240527216024/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -543,7 +543,7 @@
         "id": "02240529204008",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240529204008/sag/6.png"
+            "/mri_images/test/02240529204008/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -558,7 +558,7 @@
         "id": "01240530218026",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240530218026/sag/6.png"
+            "/mri_images/test/01240530218026/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -573,7 +573,7 @@
         "id": "02240513201048",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240513201048/sag/6.png"
+            "/mri_images/test/02240513201048/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -588,7 +588,7 @@
         "id": "01240506217036",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240506217036/sag/6.png"
+            "/mri_images/test/01240506217036/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -603,7 +603,7 @@
         "id": "01240609218022",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240609218022/sag/6.png"
+            "/mri_images/test/01240609218022/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -618,7 +618,7 @@
         "id": "01240527214102",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240527214102/sag/6.png"
+            "/mri_images/test/01240527214102/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -633,7 +633,7 @@
         "id": "02240513201049",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240513201049/sag/6.png"
+            "/mri_images/test/02240513201049/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -648,7 +648,7 @@
         "id": "02240605218012",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240605218012/sag/6.png"
+            "/mri_images/test/02240605218012/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -663,7 +663,7 @@
         "id": "01240415210018",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240415210018/sag/6.png"
+            "/mri_images/test/01240415210018/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -678,7 +678,7 @@
         "id": "01240516215073",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516215073/sag/6.png"
+            "/mri_images/test/01240516215073/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -693,7 +693,7 @@
         "id": "01240513221044",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240513221044/sag/6.png"
+            "/mri_images/test/01240513221044/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -708,7 +708,7 @@
         "id": "02240510215026",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240510215026/sag/6.png"
+            "/mri_images/test/02240510215026/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -723,7 +723,7 @@
         "id": "01240519214028",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240519214028/sag/6.png"
+            "/mri_images/test/01240519214028/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -738,7 +738,7 @@
         "id": "01240521211044",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240521211044/sag/6.png"
+            "/mri_images/test/01240521211044/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -753,7 +753,7 @@
         "id": "01240515221127",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240515221127/sag/6.png"
+            "/mri_images/test/01240515221127/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -768,7 +768,7 @@
         "id": "01240614214047",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240614214047/sag/6.png"
+            "/mri_images/test/01240614214047/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -783,7 +783,7 @@
         "id": "01240603215066",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240603215066/sag/6.png"
+            "/mri_images/test/01240603215066/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -798,7 +798,7 @@
         "id": "01240523221080",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240523221080/sag/6.png"
+            "/mri_images/test/01240523221080/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -813,7 +813,7 @@
         "id": "01240527210062",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240527210062/sag/6.png"
+            "/mri_images/test/01240527210062/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -828,7 +828,7 @@
         "id": "01240428208036",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240428208036/sag/6.png"
+            "/mri_images/test/01240428208036/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -843,7 +843,7 @@
         "id": "02240515201024",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240515201024/sag/6.png"
+            "/mri_images/test/02240515201024/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -858,7 +858,7 @@
         "id": "01240419212052",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240419212052/sag/6.png"
+            "/mri_images/test/01240419212052/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -873,7 +873,7 @@
         "id": "01240512208007",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240512208007/sag/6.png"
+            "/mri_images/test/01240512208007/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -888,7 +888,7 @@
         "id": "01240422212056",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240422212056/sag/6.png"
+            "/mri_images/test/01240422212056/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -903,7 +903,7 @@
         "id": "01240425208077",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240425208077/sag/6.png"
+            "/mri_images/test/01240425208077/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -918,7 +918,7 @@
         "id": "01240601216044",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240601216044/sag/6.png"
+            "/mri_images/test/01240601216044/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -933,7 +933,7 @@
         "id": "01240426208098",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240426208098/sag/6.png"
+            "/mri_images/test/01240426208098/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -948,7 +948,7 @@
         "id": "01240515221125",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240515221125/sag/6.png"
+            "/mri_images/test/01240515221125/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -963,7 +963,7 @@
         "id": "01240523221012",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240523221012/sag/6.png"
+            "/mri_images/test/01240523221012/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -978,7 +978,7 @@
         "id": "02240516201067",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240516201067/sag/6.png"
+            "/mri_images/test/02240516201067/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -993,7 +993,7 @@
         "id": "01240419216060",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240419216060/sag/6.png"
+            "/mri_images/test/01240419216060/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1008,7 +1008,7 @@
         "id": "01240514210025",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240514210025/sag/6.png"
+            "/mri_images/test/01240514210025/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1023,7 +1023,7 @@
         "id": "01240517208010",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240517208010/sag/6.png"
+            "/mri_images/test/01240517208010/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1038,7 +1038,7 @@
         "id": "01240604210013",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240604210013/sag/6.png"
+            "/mri_images/test/01240604210013/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1053,7 +1053,7 @@
         "id": "01240419208031",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240419208031/sag/6.png"
+            "/mri_images/test/01240419208031/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1068,7 +1068,7 @@
         "id": "01240425218004",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240425218004/sag/6.png"
+            "/mri_images/test/01240425218004/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1083,7 +1083,7 @@
         "id": "01240607214042",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240607214042/sag/6.png"
+            "/mri_images/test/01240607214042/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1098,7 +1098,7 @@
         "id": "01240417211068",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240417211068/sag/6.png"
+            "/mri_images/test/01240417211068/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1113,7 +1113,7 @@
         "id": "01240603214066",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240603214066/sag/6.png"
+            "/mri_images/test/01240603214066/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1128,7 +1128,7 @@
         "id": "01240603218003",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240603218003/sag/6.png"
+            "/mri_images/test/01240603218003/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1143,7 +1143,7 @@
         "id": "01240516215068",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516215068/sag/6.png"
+            "/mri_images/test/01240516215068/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1158,7 +1158,7 @@
         "id": "02240516214034",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240516214034/sag/6.png"
+            "/mri_images/test/02240516214034/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1173,7 +1173,7 @@
         "id": "01240522221096",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240522221096/sag/6.png"
+            "/mri_images/test/01240522221096/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1188,7 +1188,7 @@
         "id": "01240515221014",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240515221014/sag/6.png"
+            "/mri_images/test/01240515221014/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1203,7 +1203,7 @@
         "id": "01240516214042",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240516214042/sag/6.png"
+            "/mri_images/test/01240516214042/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1218,7 +1218,7 @@
         "id": "01240513221129",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240513221129/sag/6.png"
+            "/mri_images/test/01240513221129/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1233,7 +1233,7 @@
         "id": "01240524218047",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240524218047/sag/6.png"
+            "/mri_images/test/01240524218047/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1248,7 +1248,7 @@
         "id": "01240513210035",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240513210035/sag/6.png"
+            "/mri_images/test/01240513210035/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1263,7 +1263,7 @@
         "id": "01240415208002",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240415208002/sag/6.png"
+            "/mri_images/test/01240415208002/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1278,7 +1278,7 @@
         "id": "02240520215046",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240520215046/sag/6.png"
+            "/mri_images/test/02240520215046/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1293,7 +1293,7 @@
         "id": "01240508214071",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240508214071/sag/6.png"
+            "/mri_images/test/01240508214071/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1308,7 +1308,7 @@
         "id": "01240514221012",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240514221012/sag/6.png"
+            "/mri_images/test/01240514221012/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1323,7 +1323,7 @@
         "id": "01240527217028",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240527217028/sag/6.png"
+            "/mri_images/test/01240527217028/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1338,7 +1338,7 @@
         "id": "01240513219052",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240513219052/sag/6.png"
+            "/mri_images/test/01240513219052/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1353,7 +1353,7 @@
         "id": "01240520218011",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240520218011/sag/6.png"
+            "/mri_images/test/01240520218011/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1368,7 +1368,7 @@
         "id": "01240601217004",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240601217004/sag/6.png"
+            "/mri_images/test/01240601217004/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1383,7 +1383,7 @@
         "id": "01240423208072",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240423208072/sag/6.png"
+            "/mri_images/test/01240423208072/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1398,7 +1398,7 @@
         "id": "02240511214073",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/02240511214073/sag/6.png"
+            "/mri_images/test/02240511214073/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1413,7 +1413,7 @@
         "id": "01240524221097",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240524221097/sag/6.png"
+            "/mri_images/test/01240524221097/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1428,7 +1428,7 @@
         "id": "01240513214120",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240513214120/sag/6.png"
+            "/mri_images/test/01240513214120/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1443,7 +1443,7 @@
         "id": "01240415208025",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240415208025/sag/6.png"
+            "/mri_images/test/01240415208025/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1458,7 +1458,7 @@
         "id": "01240422208062",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240422208062/sag/6.png"
+            "/mri_images/test/01240422208062/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1473,7 +1473,7 @@
         "id": "01240612210008",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240612210008/sag/6.png"
+            "/mri_images/test/01240612210008/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",
@@ -1488,7 +1488,7 @@
         "id": "01240519214016",
         "task": "sl",
         "image": [
-            "/home/che/data/mri_images/test/01240519214016/sag/6.png"
+            "/mri_images/test/01240519214016/sag/6.png"
         ],
         "object": "",
         "answer": "B.abnormal",

@@ -11,6 +11,8 @@ from PIL import Image
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+from torchvision.utils import make_grid
 
 def set_seed(seed=42):
     np.random.seed(seed)
@@ -22,7 +24,8 @@ def set_seed(seed=42):
 set_seed()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-task = 'zyzg' # qd, sl, ajppt, zyzg
+task = 'qd' # qd, sl, ajppt, zyzg
+# TODO: zjppt, zyzg 格式还不太对
 if task == 'qd':
     num_classes = 3
 elif task == 'sl':
@@ -33,7 +36,7 @@ elif task == 'zyzg':
     num_classes = 4
 
 
-# Data paths
+# Data paths 
 TRAIN_IMAGE_DIR = os.path.dirname(__file__)+f"/../data/mri_images/train"
 TRAIN_LABEL_PATH =  os.path.dirname(__file__)+f"/../data/dataset/{task}_train.json"
 
@@ -43,8 +46,9 @@ def load_labels(label_path):
         data = json.load(f)
     
     labels = []
-    id_to_index = {}  # Mapping from image_id to index
-    index_to_id = {}  # Mapping from index to image_id 
+    path_to_index = {}  # Mapping from image_id to index
+    index_to_path = {}  # Mapping from index to image_id 
+    index_to_labels = {}  # Mapping from index to label
     image_ids = []    # Store all image_ids
     
     for idx, item in enumerate(data):
@@ -52,6 +56,7 @@ def load_labels(label_path):
         image_id = item.get('id', '')
         answer = item.get('answer', '')
         image_paths = item.get('image', [])
+        # print(f'image_path={image_paths}')
         
         # Extract type info (sag or tra) and image number from image path
         image_type = "unknown"
@@ -59,10 +64,12 @@ def load_labels(label_path):
         if image_paths and len(image_paths) > 0:
             path = image_paths[0]
             # Extract type info
-            if "/sag/" in path or "\\sag\\" in path:
-                image_type = "sag"
-            elif "/tra/" in path or "\\tra\\" in path:
-                image_type = "tra"
+            if task == 'qd':
+                if "/sag/" in path or "\\sag\\" in path:
+                    image_type = "sag"
+            if task == 'zjppt':
+                if "/tra/" in path or "\\tra\\" in path:
+                    image_type = "tra"
             
             # Extract image number
             import re
@@ -70,99 +77,130 @@ def load_labels(label_path):
             if match:
                 image_number = match.group(2)
         
-        # Create unique identifier combining ID, type and image number
-        unique_id = f"{image_id}_{image_type}_{image_number}"
-        
-        # Convert labels to numbers
-        if task == 'qd':
-            if "A" in answer:
-                labels.append(0)
-            elif "B" in answer:
-                labels.append(1)
-            elif "C" in answer:
-                labels.append(2)
-        elif task == 'sl':
-            if "A" in answer:
-                labels.append(0)
-            elif "B" in answer:
-                labels.append(1)
-        elif task == 'zjppt':
-            if "A" in answer:
-                labels.append(0)
-            elif "B" in answer:
-                labels.append(1)
-            elif "C" in answer:
-                labels.append(2)
-            elif "D" in answer:
-                labels.append(3)
-        elif task == 'zyzg':
-            if "A" in answer:
-                labels.append(0)
-            elif "B" in answer:
-                labels.append(1)
-            elif "C" in answer:
-                labels.append(2)
-            elif "D" in answer:
-                labels.append(3)
+            # Create unique identifier combining ID, type and image number
+            # unique_id = f"{image_id}_{image_type}_{image_number}"
             
-        # Establish bidirectional mapping between image_id and index
-        id_to_index[unique_id] = idx
-        index_to_id[idx] = unique_id
-        image_ids.append(unique_id)
+            adjusted_idx = idx + 1
+            
+            # Convert labels to numbers
+            label_value = None
+            if task == 'qd':
+                if "A" in answer:
+                    label_value = 0
+                elif "B" in answer:
+                    label_value = 1
+                elif "C" in answer:
+                    label_value = 2
+            elif task == 'sl':
+                if "A" in answer:
+                    label_value = 0
+                elif "B" in answer:
+                    label_value = 1
+            elif task == 'zjppt':
+                if "A" in answer:
+                    label_value = 0
+                elif "B" in answer:
+                    label_value = 1
+                elif "C" in answer:
+                    label_value = 2
+                elif "D" in answer:
+                    label_value = 3
+            elif task == 'zyzg':
+                if "A" in answer:
+                    label_value = 0
+                elif "B" in answer:
+                    label_value = 1
+                elif "C" in answer:
+                    label_value = 2
+                elif "D" in answer:
+                    label_value = 3
+            
+            if label_value is not None:
+                labels.append(label_value)
+                # 建立索引到标签的映射
+                index_to_labels[adjusted_idx] = label_value
+                
+            # Establish bidirectional mapping between image_id and index
+            path_to_index[path] = adjusted_idx
+            index_to_path[adjusted_idx] = path
+            
+            # print(f'image_path={path}\nanswer={answer}\nindex={idx}\n')
+    
+    index_list = list(range(1, len(labels) + 1))
+    
+    return path_to_index, index_to_path, index_to_labels, index_list
+
+def visualize_batch(inputs, labels, epoch, batch_idx, indices, index_to_path):
+    # print(f'batch_idx={batch_idx}, indices={indices}')
+    image_paths = [index_to_path[idx] for idx in indices.tolist()]
+    # print(f'==inputs={inputs.shape}, labels={labels.shape}, image_paths={image_paths}')
+    
+    # 反归一化图像
+    mean = torch.tensor([0.485, 0.456, 0.406]).reshape(1, 3, 1, 1)
+    std = torch.tensor([0.229, 0.224, 0.225]).reshape(1, 3, 1, 1)
+    inputs_denorm = inputs * std + mean
+    
+    grid_img = make_grid(inputs_denorm, nrow=4, padding=2, normalize=False)
+    grid_img = grid_img.permute(1, 2, 0).numpy()  # 转换为HWC格式
+    
+    grid_img = np.clip(grid_img, 0, 1)
+
+    plt.figure(figsize=(15, 15))
+    plt.imshow(grid_img)
+    plt.title(f'Epoch {epoch+1}, Batch {batch_idx+1}')
+    
+    # 为每个图像添加标签文本
+    batch_size = inputs.size(0)
+    nrow = 4  # 每行显示的图像数量
+    for i in range(batch_size):
+        row = i // nrow
+        col = i % nrow
         
-        # print(f'image_id={unique_id}\nanswer={answer}\nindex={idx}\n')
+        # 计算图像在网格中的位置
+        x = col * (inputs.size(3) + 2) + inputs.size(3) // 2
+        y = row * (inputs.size(2) + 2) + inputs.size(2) + 5
+        
+        idx = indices[i].item()
+        path = index_to_path[idx]
+        label_text = f"path: {path}\nlabel: {labels[i]}"
+        
+        plt.text(x, y, label_text, color='white', fontsize=9, 
+                 ha='center', va='center',
+                 bbox=dict(facecolor='black', alpha=0.7, pad=1))
     
-    # # Check for duplicate image_ids
-    # unique_ids = set(image_ids)
-    # if len(unique_ids) != len(image_ids):
-    #     print(f"Warning: Found duplicate image_ids! Total: {len(image_ids)}, Unique: {len(unique_ids)}")
-    #     # Further analyze duplicates
-    #     from collections import Counter
-    #     id_counts = Counter(image_ids)
-    #     duplicates = {id: count for id, count in id_counts.items() if count > 1}
-    #     print(f"Duplicate image_ids: {duplicates}")
+    plt.axis('off')
+    plt.tight_layout()
     
-    return labels, id_to_index, index_to_id, image_ids
+    os.makedirs('batch_visualizations', exist_ok=True)
+    plt.savefig(f'batch_visualizations/epoch_{epoch+1}_batch_{batch_idx+1}.png', dpi=150, bbox_inches='tight')
+
+    plt.figure(figsize=(20, 20))
+    for i, path in enumerate(image_paths, 1):
+        plt.subplot(4, 4, i) 
+        img = Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')
+        plt.imshow(img)
+        plt.title(f'Image {i}\n{path}', fontsize=8)
+        plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(f'batch_visualizations/raw_images_epoch_{epoch+1}_batch_{batch_idx+1}.png')
+    plt.close()
 
 
 class MRIDataset(Dataset):
-    def __init__(self, image_dir, labels, transform=None):
+    def __init__(self, image_dir, indices):
         self.image_dir = image_dir
-        self.labels = labels
-        self.transform = transform
-        self.image_ids = list(labels.keys())
-    
+        self.indices = indices
+
     def __len__(self):
-        return len(self.image_ids)
+        return len(self.indices)
     
     def __getitem__(self, idx):
-        image_id = self.image_ids[idx]
-        
-        parts = image_id.split('_')
-        if len(parts) >= 3:
-            patient_id = parts[0]
-            image_type = parts[1]  
-            image_number = parts[2]
-            image_path = os.path.join(self.image_dir, patient_id, image_type, f"{image_number}.png")
-        
-        # Ensure file exists
-        if not os.path.exists(image_path):
-            print(f"Warning: Image does not exist {image_path}")
-            # Return a blank image and label
-            image = Image.new('RGB', (224, 224), color='black')
-            label = self.labels[image_id]
-            if self.transform:
-                image = self.transform(image)
-            return image, label
-        
-        # Load image
-        image = Image.open(image_path).convert('RGB')
-        label = self.labels[image_id]
-        
-        if self.transform:
-            image = self.transform(image)
-        
-        return image, label
+        index = self.indices[idx]
+        path = index_to_path[index]
+        img = Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')
+        img = data_transforms(img)
+        label = index_to_labels[index]
+        return img, label
 
 # 定义数据转换 TODO: check这一点，以及看看是否要做过采样（数据不平衡）
 data_transforms = transforms.Compose([
@@ -171,27 +209,16 @@ data_transforms = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
-labels, id_to_index, index_to_id, image_ids = load_labels(TRAIN_LABEL_PATH)
-print(f"Loaded {len(labels)} labels")
-labels = np.array(labels)
-# Count number of samples for each class
-unique_labels, counts = np.unique(labels, return_counts=True)
-print("\nSample count statistics for each class:")
-for label, count in zip(unique_labels, counts):
-    print(f"Class {label}: {count} samples")
+path_to_index, index_to_path, index_to_labels, index_list = load_labels(TRAIN_LABEL_PATH)
 
-train_indices, val_indices = train_test_split(range(len(labels)), test_size=0.2, shuffle=True)
+train_indices, val_indices = train_test_split(index_list, test_size=0.2, shuffle=True)
 train_indices = np.array(train_indices)
 val_indices = np.array(val_indices)
 print(f'train_indices.shape={train_indices.shape}, val_indices.shape={val_indices.shape}')
 
-train_id_label_dict = {index_to_id[idx]: labels[idx] for idx in train_indices}
-val_id_label_dict = {index_to_id[idx]: labels[idx] for idx in val_indices}
+train_dataset = MRIDataset(TRAIN_IMAGE_DIR, train_indices)
+val_dataset = MRIDataset(TRAIN_IMAGE_DIR, val_indices)
 
-print(f'Number of training samples: {len(train_id_label_dict)}, Number of validation samples: {len(val_id_label_dict)}')
-
-train_dataset = MRIDataset(TRAIN_IMAGE_DIR, train_id_label_dict, transform=data_transforms)
-val_dataset = MRIDataset(TRAIN_IMAGE_DIR, val_id_label_dict, transform=data_transforms)
 train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=16, shuffle=False)
 
@@ -251,26 +278,36 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3, verbose=True)
 
 # Training function
-def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=10, start_epoch=0):
+def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=10, start_epoch=0, visualize_batches=True, visualize_frequency=10):
     best_val_loss = float('inf')
     best_model_weights = None
     best_epoch = -1
     
     for epoch in range(start_epoch, start_epoch + num_epochs):
-        # traning phase
+        # 训练阶段
         model.train()
         train_loss = 0.0
         train_preds = []
         train_targets = []
         
-        for inputs, labels in train_loader:
+        for batch_idx, (inputs, labels) in enumerate(train_loader):
+            # image_paths = [index_to_path[idx] for idx in indices.tolist()]
+            # inputs = torch.stack([
+            #     data_transforms(Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')) 
+            #     for path in image_paths
+            # ])
+            # labels = torch.tensor([index_to_labels[idx] for idx in indices.tolist()])
+            
+            # 可视化当前批次
+            if visualize_batches and batch_idx % visualize_frequency == 0:
+                visualize_batch(inputs, labels, epoch, batch_idx, indices, index_to_path)
+            
             inputs = inputs.to(device)
             labels = labels.to(device)
             
             optimizer.zero_grad()
             
             outputs = model(inputs)
-            # print(f'==outputs={outputs.shape}, {outputs}, labels={labels.shape}, {labels}')
             loss = criterion(outputs, labels)
             
             loss.backward()
@@ -362,51 +399,51 @@ else:
     trained_model = model
 
 
-# Evaluate model
-def evaluate_model(model, data_loader):
-    model.eval()
-    all_preds = []
-    all_targets = []
+# # Evaluate model
+# def evaluate_model(model, data_loader):
+#     model.eval()
+#     all_preds = []
+#     all_targets = []
     
-    with torch.no_grad():
-        for inputs, labels in data_loader:
-            inputs = inputs.to(device)
-            labels = labels.to(device)
+#     with torch.no_grad():
+#         for inputs, labels in data_loader:
+#             inputs = inputs.to(device)
+#             labels = labels.to(device)
             
-            outputs = model(inputs)
-            _, preds = torch.max(outputs, 1)
+#             outputs = model(inputs)
+#             _, preds = torch.max(outputs, 1)
             
-            all_preds.extend(preds.cpu().numpy())
-            all_targets.extend(labels.cpu().numpy())
+#             all_preds.extend(preds.cpu().numpy())
+#             all_targets.extend(labels.cpu().numpy())
     
-    accuracy = accuracy_score(all_targets, all_preds)
-    precision = precision_score(all_targets, all_preds, average='weighted')
-    recall = recall_score(all_targets, all_preds, average='weighted')
-    f1 = f1_score(all_targets, all_preds, average='weighted')
+#     accuracy = accuracy_score(all_targets, all_preds)
+#     precision = precision_score(all_targets, all_preds, average='weighted')
+#     recall = recall_score(all_targets, all_preds, average='weighted')
+#     f1 = f1_score(all_targets, all_preds, average='weighted')
     
-    # Calculate and print confusion matrix
-    cm = confusion_matrix(all_targets, all_preds)
-    print("Confusion Matrix:")
-    print(cm)
+#     # Calculate and print confusion matrix
+#     cm = confusion_matrix(all_targets, all_preds)
+#     print("Confusion Matrix:")
+#     print(cm)
     
-    # Print normalized confusion matrix (row-normalized, showing recall distribution for each class)
-    cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
-    print("Normalized Confusion Matrix (by row):")
-    print(np.round(cm_normalized, 2))
+#     # Print normalized confusion matrix (row-normalized, showing recall distribution for each class)
+#     cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+#     print("Normalized Confusion Matrix (by row):")
+#     print(np.round(cm_normalized, 2))
     
-    return {
-        'accuracy': accuracy,
-        'precision': precision,
-        'recall': recall,
-        'f1': f1,
-        'confusion_matrix': cm
-    }
+#     return {
+#         'accuracy': accuracy,
+#         'precision': precision,
+#         'recall': recall,
+#         'f1': f1,
+#         'confusion_matrix': cm
+#     }
 
-# Evaluate model on validation set
-print("Evaluating model on validation set...")
-eval_metrics = evaluate_model(trained_model, val_loader)
-print(f"Validation Set Results:")
-print(f"Accuracy: {eval_metrics['accuracy']:.4f}")
-print(f"Precision: {eval_metrics['precision']:.4f}")
-print(f"Recall: {eval_metrics['recall']:.4f}")
-print(f"F1 Score: {eval_metrics['f1']:.4f}")
+# # Evaluate model on validation set
+# print("Evaluating model on validation set...")
+# eval_metrics = evaluate_model(trained_model, val_loader)
+# print(f"Validation Set Results:")
+# print(f"Accuracy: {eval_metrics['accuracy']:.4f}")
+# print(f"Precision: {eval_metrics['precision']:.4f}")
+# print(f"Recall: {eval_metrics['recall']:.4f}")
+# print(f"F1 Score: {eval_metrics['f1']:.4f}")
