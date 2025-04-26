@@ -130,77 +130,20 @@ def load_labels(label_path):
     
     return path_to_index, index_to_path, index_to_labels, index_list
 
-def visualize_batch(inputs, labels, epoch, batch_idx, indices, index_to_path):
-    # print(f'batch_idx={batch_idx}, indices={indices}')
-    image_paths = [index_to_path[idx] for idx in indices.tolist()]
-    # print(f'==inputs={inputs.shape}, labels={labels.shape}, image_paths={image_paths}')
-    
-    # 反归一化图像
-    mean = torch.tensor([0.485, 0.456, 0.406]).reshape(1, 3, 1, 1)
-    std = torch.tensor([0.229, 0.224, 0.225]).reshape(1, 3, 1, 1)
-    inputs_denorm = inputs * std + mean
-    
-    grid_img = make_grid(inputs_denorm, nrow=4, padding=2, normalize=False)
-    grid_img = grid_img.permute(1, 2, 0).numpy()  # 转换为HWC格式
-    
-    grid_img = np.clip(grid_img, 0, 1)
-
-    plt.figure(figsize=(15, 15))
-    plt.imshow(grid_img)
-    plt.title(f'Epoch {epoch+1}, Batch {batch_idx+1}')
-    
-    # 为每个图像添加标签文本
-    batch_size = inputs.size(0)
-    nrow = 4  # 每行显示的图像数量
-    for i in range(batch_size):
-        row = i // nrow
-        col = i % nrow
-        
-        # 计算图像在网格中的位置
-        x = col * (inputs.size(3) + 2) + inputs.size(3) // 2
-        y = row * (inputs.size(2) + 2) + inputs.size(2) + 5
-        
-        idx = indices[i].item()
-        path = index_to_path[idx]
-        label_text = f"path: {path}\nlabel: {labels[i]}"
-        
-        plt.text(x, y, label_text, color='white', fontsize=9, 
-                 ha='center', va='center',
-                 bbox=dict(facecolor='black', alpha=0.7, pad=1))
-    
-    plt.axis('off')
-    plt.tight_layout()
-    
-    os.makedirs('batch_visualizations', exist_ok=True)
-    plt.savefig(f'batch_visualizations/epoch_{epoch+1}_batch_{batch_idx+1}.png', dpi=150, bbox_inches='tight')
-
-    plt.figure(figsize=(20, 20))
-    for i, path in enumerate(image_paths, 1):
-        plt.subplot(4, 4, i) 
-        img = Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')
-        plt.imshow(img)
-        plt.title(f'Image {i}\n{path}', fontsize=8)
-        plt.axis('off')
-    plt.tight_layout()
-    plt.savefig(f'batch_visualizations/raw_images_epoch_{epoch+1}_batch_{batch_idx+1}.png')
-    plt.close()
-
 
 class MRIDataset(Dataset):
-    def __init__(self, image_dir, indices):
-        self.image_dir = image_dir
-        self.indices = indices
+    def __init__(self, images, labels):
+        self.images = images
+        self.labels = labels
 
     def __len__(self):
-        return len(self.indices)
+        return len(self.images)
     
     def __getitem__(self, idx):
-        index = self.indices[idx]
-        path = index_to_path[index]
-        img = Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')
-        img = data_transforms(img)
-        label = index_to_labels[index]
-        return img, label
+        image = self.images[idx]
+        label = self.labels[idx]
+        return image, label
+
 
 # 定义数据转换 TODO: check这一点，以及看看是否要做过采样（数据不平衡）
 data_transforms = transforms.Compose([
@@ -210,14 +153,40 @@ data_transforms = transforms.Compose([
 ])
 
 path_to_index, index_to_path, index_to_labels, index_list = load_labels(TRAIN_LABEL_PATH)
+image_paths = [index_to_path[idx] for idx in index_list]
+x = torch.stack([
+    data_transforms(Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')) 
+    for path in image_paths
+])
+y = torch.tensor([index_to_labels[idx] for idx in index_list])
+x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=0.2, random_state=42)
+print(f'==x_train={x_train.shape}, y_train={y_train.shape}')
 
-train_indices, val_indices = train_test_split(index_list, test_size=0.2, shuffle=True)
-train_indices = np.array(train_indices)
-val_indices = np.array(val_indices)
-print(f'train_indices.shape={train_indices.shape}, val_indices.shape={val_indices.shape}')
+# def imshow(img, title):
+#     mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
+#     std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
+#     img = img * std + mean  # 反标准化
+#     img = img.numpy().transpose((1, 2, 0))  # 转换维度顺序
+#     plt.imshow(img)
+#     plt.title(title)
+#     plt.axis('off')
 
-train_dataset = MRIDataset(TRAIN_IMAGE_DIR, train_indices)
-val_dataset = MRIDataset(TRAIN_IMAGE_DIR, val_indices)
+# label_map = {
+#     'qd': {0: 'A', 1: 'B', 2: 'C'},
+#     'sl': {0: 'A', 1: 'B'},
+#     'zjppt': {0: 'A', 1: 'B', 2: 'C', 3: 'D'},
+#     'zyzg': {0: 'A', 1: 'B', 2: 'C', 3: 'D'}
+# }
+
+# plt.figure(figsize=(12, 12))
+# for i in range(4):
+#     plt.subplot(4, 1, i+1)
+#     imshow(x[i], f'Label: {label_map[task][y[i].item()]} (idx:{y[i]}) (path:{image_paths[i]})')
+# plt.tight_layout()
+# plt.show()
+
+train_dataset = MRIDataset(x_train, y_train)
+val_dataset = MRIDataset(x_val, y_val)
 
 train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=16, shuffle=False)
@@ -291,17 +260,6 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler
         train_targets = []
         
         for batch_idx, (inputs, labels) in enumerate(train_loader):
-            # image_paths = [index_to_path[idx] for idx in indices.tolist()]
-            # inputs = torch.stack([
-            #     data_transforms(Image.open(os.path.dirname(__file__)+'/../data'+path).convert('RGB')) 
-            #     for path in image_paths
-            # ])
-            # labels = torch.tensor([index_to_labels[idx] for idx in indices.tolist()])
-            
-            # 可视化当前批次
-            if visualize_batches and batch_idx % visualize_frequency == 0:
-                visualize_batch(inputs, labels, epoch, batch_idx, indices, index_to_path)
-            
             inputs = inputs.to(device)
             labels = labels.to(device)
             
@@ -375,7 +333,7 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler
     return model, best_epoch
 
 # Determine if model needs training
-total_epochs = 15
+total_epochs = 30
 epochs_trained = metadata.get('epochs_trained', 0)
 epochs_to_train = max(0, total_epochs - epochs_trained)
 
