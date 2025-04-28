@@ -8,6 +8,7 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, models
 from PIL import Image
+import argparse
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import confusion_matrix
@@ -24,17 +25,19 @@ def set_seed(seed=42):
 set_seed()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-task = 'sl' # qd, sl, zjppt, zyzg
-# TODO: zjppt, zyzg 格式还不太对
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('--task', type=str, required=True, choices=['qd', 'sl', 'zjppt', 'zyzg'], help='Task type: qd/sl/zjppt/zyzg')
+args = parser.parse_args()
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+task = args.task
+
 if task == 'qd':
     num_classes = 3
-elif task == 'sl':
+elif task =='sl':
     num_classes = 2
-elif task == 'zjppt':
+elif task == 'zjppt' or task == 'zyzg':
     num_classes = 4
-elif task == 'zyzg':
-    num_classes = 4
-
 
 # Data paths 
 TRAIN_IMAGE_DIR = os.path.dirname(__file__)+f"/../data/mri_images/train"
