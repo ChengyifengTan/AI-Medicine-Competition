@@ -119,6 +119,7 @@ def main():
                     outputs = model(img_tensor)
                     _, preds = torch.max(outputs, 1)
                     predictions.append(preds.item())
+                    print(f'{preds.item()}')
             except Exception as e:
                 print(f"Error processing image {img_path}: {e}")
         

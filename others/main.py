@@ -10,7 +10,7 @@ from torchvision import transforms, models
 from PIL import Image
 import argparse
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_scorezy
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 from torchvision.utils import make_grid
@@ -81,13 +81,6 @@ def load_labels(label_path):
         if image_paths and len(image_paths) > 0:
             path = image_paths[0]
             # print(f'path={path}')
-            # Extract type info
-            if task == 'qd':
-                if "/sag/" in path or "\\sag\\" in path:
-                    image_type = "sag"
-            if task == 'zjppt':
-                if "/tra/" in path or "\\tra\\" in path:
-                    image_type = "tra"
             
             # Extract image number
             import re
@@ -153,7 +146,7 @@ def load_labels(label_path):
             path_to_index[path] = adjusted_idx
             index_to_path[adjusted_idx] = path
             
-            # print(f'image_path={path}\nanswer={answer}\nindex={idx}\n')
+            print(f'image_path={path}\nanswer={answer}\nindex={idx}\n')
     
     index_list = list(range(1, len(labels) + 1))
     
@@ -234,8 +227,9 @@ if task == 'positioning':
     
     X = np.array(images)
     y = np.array(masks)
-    X = np.dot(X[...,:3], [0.299, 0.587, 0.114])
-    X = np.expand_dims(X, axis=-1)
+    if task != 'positioning':
+        X = np.dot(X[...,:3], [0.299, 0.587, 0.114])
+        X = np.expand_dims(X, axis=-1)
     y = np.expand_dims(y, axis=-1)  
     print(f'==X={X.shape}, y={y.shape}')
     
@@ -296,33 +290,26 @@ if task == 'positioning':
     plt.tight_layout()
     plt.savefig(f'training_results_{task}.png')
     
-    # 测试模型并可视化一些预测结果
     def visualize_predictions(model, X, y, num_samples=5):
-        # 随机选择样本
         indices = np.random.choice(len(X), num_samples, replace=False)
         
         plt.figure(figsize=(15, 5*num_samples))
         for i, idx in enumerate(indices):
-            # 获取样本
             img = X[idx]
             true_mask = y[idx]
             
-            # 预测掩码
             pred_mask = model.predict(np.expand_dims(img, axis=0))[0]
             
-            # 显示原始图像
             plt.subplot(num_samples, 3, i*3+1)
             plt.imshow(img)
             plt.title('Original Image')
             plt.axis('off')
             
-            # 显示真实掩码
             plt.subplot(num_samples, 3, i*3+2)
             plt.imshow(true_mask[:,:,0], cmap='gray')
             plt.title('True Mask')
             plt.axis('off')
             
-            # 显示预测掩码
             plt.subplot(num_samples, 3, i*3+3)
             plt.imshow(pred_mask[:,:,0], cmap='gray')
             plt.title('Predicted Mask')
@@ -331,7 +318,6 @@ if task == 'positioning':
         plt.tight_layout()
         plt.savefig(f'prediction_samples_{task}.png')
     
-    # 可视化一些预测结果
     visualize_predictions(model, X_val, y_val)
     
     print(f"分割模型训练完成，已保存为 'segmentation_model_{task}.h5'")
@@ -342,38 +328,39 @@ else:
     ])
     y = torch.tensor([index_to_labels[idx] for idx in index_list])
 
-    # 分析类别分布情况
-    unique_labels, counts = np.unique(y.numpy(), return_counts=True)
-    print("类别分布情况:")
+    # 先划分训练集和验证集，再进行过采样
+    x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=0.2, random_state=42)
+    
+    # 分析训练集类别分布情况
+    unique_labels, counts = np.unique(y_train.numpy(), return_counts=True)
+    print("训练集类别分布情况:")
     for label, count in zip(unique_labels, counts):
         print(f"类别 {label}: {count} 个样本")
     
-    # 将数据转换为NumPy格式以便进行过采样
-    x_np = x.numpy()
-    y_np = y.numpy()
+    # 将训练数据转换为NumPy格式以便进行过采样
+    x_train_np = x_train.numpy()
+    y_train_np = y_train.numpy()
     
-    # 应用随机过采样
+    # 应用随机过采样（只对训练集）
     ros = RandomOverSampler(random_state=42)
     
     # 重塑数据以适应过采样器
-    x_reshaped = x_np.reshape(x_np.shape[0], -1)
-    x_resampled, y_resampled = ros.fit_resample(x_reshaped, y_np)
+    x_train_reshaped = x_train_np.reshape(x_train_np.shape[0], -1)
+    x_train_resampled, y_train_resampled = ros.fit_resample(x_train_reshaped, y_train_np)
     
     # 将重塑的数据转换回原始形状
-    x_resampled = x_resampled.reshape(-1, x_np.shape[1], x_np.shape[2], x_np.shape[3])
+    x_train_resampled = x_train_resampled.reshape(-1, x_train_np.shape[1], x_train_np.shape[2], x_train_np.shape[3])
     
     # 转换回PyTorch张量
-    x = torch.from_numpy(x_resampled)
-    y = torch.from_numpy(y_resampled)
+    x_train = torch.from_numpy(x_train_resampled)
+    y_train = torch.from_numpy(y_train_resampled)
     
-    # 打印过采样后的类别分布
-    unique_labels, counts = np.unique(y.numpy(), return_counts=True)
-    print("过采样后的类别分布情况:")
+    # 打印过采样后的训练集类别分布
+    unique_labels, counts = np.unique(y_train.numpy(), return_counts=True)
+    print("过采样后的训练集类别分布情况:")
     for label, count in zip(unique_labels, counts):
         print(f"类别 {label}: {count} 个样本")
-
     
-    x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=0.2, random_state=42)
     print(f'==x_train={x_train.shape}, y_train={y_train.shape}')
 
     # def imshow(img, title):
