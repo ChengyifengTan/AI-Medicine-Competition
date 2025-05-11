@@ -1,0 +1,37 @@
+data:
+  train_path: "./data/train.json"
+  valid_path: "./data/valid.json"      # 新增：验证集标签文件
+  test_path:  "./data/test.json"
+  image_dir:  "./data/images"           # 新增：影像根目录
+  output_predict: "./data/test_predict.json"
+
+model:
+  backbone: "Qwen/qwen2.5-vl-3b"
+  lora_rank: 8
+  lora_alpha: 16
+  freeze_backbone: true
+
+training:
+  epochs: 50
+  batch_size: 16
+  learning_rate: 5e-5
+  weight_decay: 1e-4
+  warmup_steps: 500
+  lr_scheduler: "cosine"
+
+evaluation:
+  eval_batch_size: 8
+  metrics:
+    - "curvature_acc"
+    - "curvature_f1"
+    - "alignment_acc"
+    - "alignment_f1"
+    - "alignment_auc"
+    - "disc_f1"
+    - "canal_f1"
+    - "canal_auc"
+
+logging:
+  project: "CervAI"
+  save_dir: "./checkpoints/"
+  log_dir: "./logs"                     # 日志目录
