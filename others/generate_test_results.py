@@ -54,9 +54,7 @@ data_transforms = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
-def main():
-    task = 'sl'  # can be 'qd', 'sl', 'zjppt', 'zyzg'
-    
+def process_task(task, test_predict_data, TEST_IMAGE_DIR):
     # Set number of classes
     if task == 'qd':
         num_classes = 3
@@ -65,8 +63,6 @@ def main():
     elif task == 'zjppt' or task == 'zyzg':
         num_classes = 4
     
-    TEST_IMAGE_DIR = os.path.dirname(__file__) + f"/../data/mri_images/test"
-    TEST_PREDICT_PATH = os.path.dirname(__file__) + f"/../data/test_predict.json"
     checkpoint_path = os.path.dirname(__file__) + f"/mri_classifier_model_{task}.pth"
     
     model = MRIClassifier(num_classes=num_classes).to(device)
@@ -75,33 +71,20 @@ def main():
     if loaded_model is not None:
         model = loaded_model
     else:
-        print(f"Failed to load model, exiting program")
-        return
+        print(f"Failed to load model for task {task}, skipping")
+        return test_predict_data
     
     model.eval()
     
-    try:
-        with open(TEST_PREDICT_PATH, 'r', encoding='utf-8') as f:
-            test_predict_data = json.load(f)
-    except FileNotFoundError:
-        print(f"Test prediction file not found: {TEST_PREDICT_PATH}")
-        return
-    except json.JSONDecodeError:
-        print(f"Test prediction file format error")
-        return
-    
     for item in test_predict_data:
         patient_id = item['id']
-        print(f"Processing patient ID: {patient_id}")
+        print(f"Processing patient ID: {patient_id} for task: {task}")
         
-        if task == 'qd':
-            image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "sag", "*.png")
-        elif task == 'sl':
-            image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "sag", "*.png")
-        elif task == 'zjppt':
-            image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "tra", "*.png")
-        elif task == 'zyzg':
-            image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "tra", "*.png")
+        # if task in ['qd', 'sl']:
+        #     image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "sag", "*.png")
+        # elif task in ['zjppt', 'zyzg']:
+        #     image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "tra", "*.png")
+        image_pattern = os.path.join(TEST_IMAGE_DIR, patient_id, "sag", "*.png")
         
         image_paths = glob.glob(image_pattern)
         
@@ -119,7 +102,6 @@ def main():
                     outputs = model(img_tensor)
                     _, preds = torch.max(outputs, 1)
                     predictions.append(preds.item())
-                    print(f'{preds.item()}')
             except Exception as e:
                 print(f"Error processing image {img_path}: {e}")
         
@@ -135,19 +117,41 @@ def main():
                 # Update test prediction data
                 item[task] = int(final_prediction)
             
-            # For multi-label tasks, keep original format
+            # For multi-label tasks, keep original format (list of predictions)
             elif task in ['zjppt', 'zyzg']:
-                # Here we assume multi-label predictions are a list
-                # May need adjustment based on actual requirements
-                item[task] = predictions
+                # For multi-label tasks, we'll use the first few predictions
+                # Adjust this logic based on your specific requirements
+                item[task] = predictions[:len(item[task])]
         
         print(f"Patient {patient_id} {task} prediction result: {item[task]}")
+    
+    return test_predict_data
+
+def main():
+    TEST_IMAGE_DIR = os.path.dirname(__file__) + f"/../data/mri_images/test"
+    TEST_PREDICT_PATH = os.path.dirname(__file__) + f"/../data/test_predict.json"
+    
+    try:
+        with open(TEST_PREDICT_PATH, 'r', encoding='utf-8') as f:
+            test_predict_data = json.load(f)
+    except FileNotFoundError:
+        print(f"Test prediction file not found: {TEST_PREDICT_PATH}")
+        return
+    except json.JSONDecodeError:
+        print(f"Test prediction file format error")
+        return
+    
+    # Process each task
+    tasks = ['qd', 'sl', 'zjppt', 'zyzg']
+    for task in tasks:
+        print(f"\n=== Processing task: {task} ===")
+        test_predict_data = process_task(task, test_predict_data, TEST_IMAGE_DIR)
     
     # Save updated test prediction file
     with open(TEST_PREDICT_PATH, 'w', encoding='utf-8') as f:
         json.dump(test_predict_data, f, indent=4)
     
-    print(f"Prediction results have been saved to {TEST_PREDICT_PATH}")
+    print(f"All tasks completed. Prediction results have been saved to {TEST_PREDICT_PATH}")
 
 if __name__ == "__main__":
     main()

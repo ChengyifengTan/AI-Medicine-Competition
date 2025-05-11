@@ -10,7 +10,7 @@ from torchvision import transforms, models
 from PIL import Image
 import argparse
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_scorezy
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 from torchvision.utils import make_grid
@@ -146,7 +146,7 @@ def load_labels(label_path):
             path_to_index[path] = adjusted_idx
             index_to_path[adjusted_idx] = path
             
-            print(f'image_path={path}\nanswer={answer}\nindex={idx}\n')
+            # print(f'image_path={path}\nanswer={answer}\nindex={idx}\n')
     
     index_list = list(range(1, len(labels) + 1))
     
