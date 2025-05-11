@@ -3,7 +3,7 @@
         "id": "01240428213079",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240428213079/sag/6.png"
+            "mri_images/train/01240428213079/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -18,7 +18,7 @@
         "id": "01240425213012",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240425213012/sag/6.png"
+            "mri_images/train/01240425213012/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -33,7 +33,7 @@
         "id": "01240604210061",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240604210061/sag/6.png"
+            "mri_images/train/01240604210061/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -48,7 +48,7 @@
         "id": "02240513201052",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240513201052/sag/6.png"
+            "mri_images/train/02240513201052/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -63,7 +63,7 @@
         "id": "02240509214038",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240509214038/sag/6.png"
+            "mri_images/train/02240509214038/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -78,7 +78,7 @@
         "id": "01240426214045",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240426214045/sag/6.png"
+            "mri_images/train/01240426214045/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -93,7 +93,7 @@
         "id": "01240516219037",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240516219037/sag/6.png"
+            "mri_images/train/01240516219037/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -108,7 +108,7 @@
         "id": "01240419202032",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240419202032/sag/6.png"
+            "mri_images/train/01240419202032/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -123,7 +123,7 @@
         "id": "01240515214073",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240515214073/sag/6.png"
+            "mri_images/train/01240515214073/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -138,7 +138,7 @@
         "id": "01240523217030",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240523217030/sag/6.png"
+            "mri_images/train/01240523217030/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -153,7 +153,7 @@
         "id": "01240518217012",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240518217012/sag/6.png"
+            "mri_images/train/01240518217012/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -168,7 +168,7 @@
         "id": "01240515218045",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240515218045/sag/6.png"
+            "mri_images/train/01240515218045/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -183,7 +183,7 @@
         "id": "01240508214088",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240508214088/sag/6.png"
+            "mri_images/train/01240508214088/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -198,7 +198,7 @@
         "id": "01240527221035",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240527221035/sag/6.png"
+            "mri_images/train/01240527221035/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -213,7 +213,7 @@
         "id": "02240509215044",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240509215044/sag/6.png"
+            "mri_images/train/02240509215044/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -228,7 +228,7 @@
         "id": "01240504215004",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240504215004/sag/6.png"
+            "mri_images/train/01240504215004/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -243,7 +243,7 @@
         "id": "01240522215046",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240522215046/sag/6.png"
+            "mri_images/train/01240522215046/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -258,7 +258,7 @@
         "id": "01240426218043",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240426218043/sag/6.png"
+            "mri_images/train/01240426218043/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -273,7 +273,7 @@
         "id": "01240602212025",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240602212025/sag/6.png"
+            "mri_images/train/01240602212025/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -288,7 +288,7 @@
         "id": "01240513221132",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240513221132/sag/6.png"
+            "mri_images/train/01240513221132/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -303,7 +303,7 @@
         "id": "02240514217065",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240514217065/sag/6.png"
+            "mri_images/train/02240514217065/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -318,7 +318,7 @@
         "id": "01240513214084",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240513214084/sag/6.png"
+            "mri_images/train/01240513214084/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -333,7 +333,7 @@
         "id": "02240520214056",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240520214056/sag/6.png"
+            "mri_images/train/02240520214056/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -348,7 +348,7 @@
         "id": "01240524216020",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240524216020/sag/6.png"
+            "mri_images/train/01240524216020/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -363,7 +363,7 @@
         "id": "01240415213025",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240415213025/sag/6.png"
+            "mri_images/train/01240415213025/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -378,7 +378,7 @@
         "id": "01240416210045",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240416210045/sag/6.png"
+            "mri_images/train/01240416210045/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -393,7 +393,7 @@
         "id": "01240531221043",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240531221043/sag/6.png"
+            "mri_images/train/01240531221043/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -408,7 +408,7 @@
         "id": "01240514214052",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240514214052/sag/6.png"
+            "mri_images/train/01240514214052/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -423,7 +423,7 @@
         "id": "01240514214100",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240514214100/sag/6.png"
+            "mri_images/train/01240514214100/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -438,7 +438,7 @@
         "id": "01240515211031",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240515211031/sag/6.png"
+            "mri_images/train/01240515211031/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -453,7 +453,7 @@
         "id": "01240516221028",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240516221028/sag/6.png"
+            "mri_images/train/01240516221028/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -468,7 +468,7 @@
         "id": "01240416208050",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240416208050/sag/6.png"
+            "mri_images/train/01240416208050/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -483,7 +483,7 @@
         "id": "02240524208019",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240524208019/sag/6.png"
+            "mri_images/train/02240524208019/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -498,7 +498,7 @@
         "id": "01240524218054",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240524218054/sag/6.png"
+            "mri_images/train/01240524218054/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -513,7 +513,7 @@
         "id": "01240424208042",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240424208042/sag/6.png"
+            "mri_images/train/01240424208042/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -528,7 +528,7 @@
         "id": "02240521208053",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240521208053/sag/6.png"
+            "mri_images/train/02240521208053/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -543,7 +543,7 @@
         "id": "01240520218027",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240520218027/sag/6.png"
+            "mri_images/train/01240520218027/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -558,7 +558,7 @@
         "id": "02240520215038",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240520215038/sag/6.png"
+            "mri_images/train/02240520215038/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -573,7 +573,7 @@
         "id": "01240513221024",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240513221024/sag/6.png"
+            "mri_images/train/01240513221024/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -588,7 +588,7 @@
         "id": "01240507210013",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240507210013/sag/6.png"
+            "mri_images/train/01240507210013/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -603,7 +603,7 @@
         "id": "01240601216008",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240601216008/sag/6.png"
+            "mri_images/train/01240601216008/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -618,7 +618,7 @@
         "id": "02240520215049",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240520215049/sag/6.png"
+            "mri_images/train/02240520215049/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -633,7 +633,7 @@
         "id": "01240418208067",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240418208067/sag/6.png"
+            "mri_images/train/01240418208067/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -648,7 +648,7 @@
         "id": "01240517214045",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240517214045/sag/6.png"
+            "mri_images/train/01240517214045/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -663,7 +663,7 @@
         "id": "01240519221015",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240519221015/sag/6.png"
+            "mri_images/train/01240519221015/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -678,7 +678,7 @@
         "id": "01240429213007",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240429213007/sag/6.png"
+            "mri_images/train/01240429213007/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -693,7 +693,7 @@
         "id": "01240514221002",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240514221002/sag/6.png"
+            "mri_images/train/01240514221002/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -708,7 +708,7 @@
         "id": "01240425218066",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240425218066/sag/6.png"
+            "mri_images/train/01240425218066/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -723,7 +723,7 @@
         "id": "01240430214067",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240430214067/sag/6.png"
+            "mri_images/train/01240430214067/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -738,7 +738,7 @@
         "id": "02240513201070",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240513201070/sag/6.png"
+            "mri_images/train/02240513201070/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -753,7 +753,7 @@
         "id": "01240419213044",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240419213044/sag/6.png"
+            "mri_images/train/01240419213044/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -768,7 +768,7 @@
         "id": "02240514214065",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240514214065/sag/6.png"
+            "mri_images/train/02240514214065/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -783,7 +783,7 @@
         "id": "01240515218024",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240515218024/sag/6.png"
+            "mri_images/train/01240515218024/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -798,7 +798,7 @@
         "id": "01240516215099",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240516215099/sag/6.png"
+            "mri_images/train/01240516215099/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -813,7 +813,7 @@
         "id": "01240522215054",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240522215054/sag/6.png"
+            "mri_images/train/01240522215054/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -828,7 +828,7 @@
         "id": "02240513201044",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240513201044/sag/6.png"
+            "mri_images/train/02240513201044/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -843,7 +843,7 @@
         "id": "02240509215038",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240509215038/sag/6.png"
+            "mri_images/train/02240509215038/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -858,7 +858,7 @@
         "id": "01240422212016",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240422212016/sag/6.png"
+            "mri_images/train/01240422212016/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -873,7 +873,7 @@
         "id": "01240528208006",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240528208006/sag/6.png"
+            "mri_images/train/01240528208006/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -888,7 +888,7 @@
         "id": "01240418210053",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240418210053/sag/6.png"
+            "mri_images/train/01240418210053/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -903,7 +903,7 @@
         "id": "01240522221057",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240522221057/sag/6.png"
+            "mri_images/train/01240522221057/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -918,7 +918,7 @@
         "id": "02240520215051",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240520215051/sag/6.png"
+            "mri_images/train/02240520215051/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -933,7 +933,7 @@
         "id": "01240423211070",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240423211070/sag/6.png"
+            "mri_images/train/01240423211070/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -948,7 +948,7 @@
         "id": "02240509216065",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/02240509216065/sag/6.png"
+            "mri_images/train/02240509216065/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -963,7 +963,7 @@
         "id": "01240422219044",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240422219044/sag/6.png"
+            "mri_images/train/01240422219044/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -978,7 +978,7 @@
         "id": "01240424214020",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240424214020/sag/6.png"
+            "mri_images/train/01240424214020/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -993,7 +993,7 @@
         "id": "01240524221001",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240524221001/sag/6.png"
+            "mri_images/train/01240524221001/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1008,7 +1008,7 @@
         "id": "01240426214098",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240426214098/sag/6.png"
+            "mri_images/train/01240426214098/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -1023,7 +1023,7 @@
         "id": "01240522214016",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240522214016/sag/6.png"
+            "mri_images/train/01240522214016/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1038,7 +1038,7 @@
         "id": "01240514221056",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240514221056/sag/6.png"
+            "mri_images/train/01240514221056/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1053,7 +1053,7 @@
         "id": "01240424208097",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240424208097/sag/6.png"
+            "mri_images/train/01240424208097/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1068,7 +1068,7 @@
         "id": "01240602216035",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240602216035/sag/6.png"
+            "mri_images/train/01240602216035/sag/6.png"
         ],
         "object": "",
         "answer": "C.reverse curvature",
@@ -1083,7 +1083,7 @@
         "id": "01240524210043",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240524210043/sag/6.png"
+            "mri_images/train/01240524210043/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1098,7 +1098,7 @@
         "id": "01240531221097",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240531221097/sag/6.png"
+            "mri_images/train/01240531221097/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1113,7 +1113,7 @@
         "id": "01240528221075",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240528221075/sag/6.png"
+            "mri_images/train/01240528221075/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1128,7 +1128,7 @@
         "id": "01240418211022",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240418211022/sag/6.png"
+            "mri_images/train/01240418211022/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1143,7 +1143,7 @@
         "id": "01240430218016",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240430218016/sag/6.png"
+            "mri_images/train/01240430218016/sag/6.png"
         ],
         "object": "",
         "answer": "B.straight curvature",
@@ -1158,7 +1158,7 @@
         "id": "01240426208003",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240426208003/sag/6.png"
+            "mri_images/train/01240426208003/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -1173,7 +1173,7 @@
         "id": "01240524208031",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240524208031/sag/6.png"
+            "mri_images/train/01240524208031/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",
@@ -1188,7 +1188,7 @@
         "id": "01240426219016",
         "task": "qd",
         "image": [
-            "/dataset/data/mri_images/train/01240426219016/sag/6.png"
+            "mri_images/train/01240426219016/sag/6.png"
         ],
         "object": "",
         "answer": "A.normal curvature",

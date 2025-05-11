@@ -34,6 +34,7 @@ def set_seed(seed=42):
 set_seed()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# device = torch.device("cpu")
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--task', type=str, required=True, choices=['qd', 'sl', 'zjppt', 'zyzg', 'positioning'], help='Task type: qd/sl/zjppt/zyzg')
 args = parser.parse_args()
@@ -238,12 +239,11 @@ if task == 'positioning':
     y = np.expand_dims(y, axis=-1)  
     print(f'==X={X.shape}, y={y.shape}')
     
-    # 分割训练集和验证集
+    # segmente the training set and validation set
     X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
     
     print(f'==X_train={X_train.shape}, y_train={y_train.shape}')
     
-    # 设置segmentation-models的框架
     sm.set_framework('tf.keras')
     tf.keras.backend.set_image_data_format('channels_last')
     
@@ -266,7 +266,6 @@ if task == 'positioning':
         metrics=[sm.metrics.iou_score],
     )
     
-    # 训练模型
     history = model.fit(
         x=X_train,
         y=y_train,
@@ -275,12 +274,9 @@ if task == 'positioning':
         validation_data=(X_val, y_val),
     )
     
-    # 保存模型
     model.save(f'segmentation_model_{task}.h5')
-    
-    # 可视化训练结果
+
     plt.figure(figsize=(12, 4))
-    
     plt.subplot(1, 2, 1)
     plt.plot(history.history['loss'])
     plt.plot(history.history['val_loss'])
