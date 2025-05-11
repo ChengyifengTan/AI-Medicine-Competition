@@ -23,6 +23,7 @@ import keras
 import efficientnet
 print(efficientnet.__version__)
 import segmentation_models as sm
+from imblearn.over_sampling import RandomOverSampler
 
 def set_seed(seed=42):
     np.random.seed(seed)
@@ -173,7 +174,6 @@ class MRIDataset(Dataset):
         return image, label
 
 
-# 定义数据转换 TODO: check这一点，以及看看是否要做过采样（数据不平衡）
 data_transforms = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
@@ -341,6 +341,38 @@ else:
         for path in image_paths
     ])
     y = torch.tensor([index_to_labels[idx] for idx in index_list])
+
+    # 分析类别分布情况
+    unique_labels, counts = np.unique(y.numpy(), return_counts=True)
+    print("类别分布情况:")
+    for label, count in zip(unique_labels, counts):
+        print(f"类别 {label}: {count} 个样本")
+    
+    # 将数据转换为NumPy格式以便进行过采样
+    x_np = x.numpy()
+    y_np = y.numpy()
+    
+    # 应用随机过采样
+    ros = RandomOverSampler(random_state=42)
+    
+    # 重塑数据以适应过采样器
+    x_reshaped = x_np.reshape(x_np.shape[0], -1)
+    x_resampled, y_resampled = ros.fit_resample(x_reshaped, y_np)
+    
+    # 将重塑的数据转换回原始形状
+    x_resampled = x_resampled.reshape(-1, x_np.shape[1], x_np.shape[2], x_np.shape[3])
+    
+    # 转换回PyTorch张量
+    x = torch.from_numpy(x_resampled)
+    y = torch.from_numpy(y_resampled)
+    
+    # 打印过采样后的类别分布
+    unique_labels, counts = np.unique(y.numpy(), return_counts=True)
+    print("过采样后的类别分布情况:")
+    for label, count in zip(unique_labels, counts):
+        print(f"类别 {label}: {count} 个样本")
+
+    
     x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=0.2, random_state=42)
     print(f'==x_train={x_train.shape}, y_train={y_train.shape}')
 
