@@ -15,8 +15,8 @@ class CervicalMRIMultiTaskModel(nn.Module):
     输出 logits:
       - curvature: (B,3)
       - alignment: (B,2)
-      - disc: (B,5,3)
-      - canal: (B,11,2)
+      - disc: (B,5,4)
+      - canal: (B,11,4)
 
     架构:
       1. Qwen2.5-VL-3B 视觉编码器 (ViT) + LoRA 微调
@@ -61,10 +61,10 @@ class CervicalMRIMultiTaskModel(nn.Module):
         # 4. 多任务分类头
         self.curvature_head = nn.Linear(hidden_size, 3)
         self.alignment_head = nn.Linear(hidden_size, 2)
-        # 5 个椎间盘三分类
-        self.disc_heads = nn.ModuleList([nn.Linear(hidden_size, 3) for _ in range(5)])
-        # 11 个椎管二分类
-        self.canal_heads = nn.ModuleList([nn.Linear(hidden_size, 2) for _ in range(11)])
+        # 5 个椎间盘四分类
+        self.disc_heads = nn.ModuleList([nn.Linear(hidden_size, 4) for _ in range(5)])
+        # 11 个椎管四分类
+        self.canal_heads = nn.ModuleList([nn.Linear(hidden_size, 4) for _ in range(11)])
 
     def forward(self, sag: torch.Tensor, tra: torch.Tensor):
         """
@@ -90,8 +90,8 @@ class CervicalMRIMultiTaskModel(nn.Module):
         logits = {}
         logits['curvature'] = self.curvature_head(fusion_feat)
         logits['alignment'] = self.alignment_head(fusion_feat)
-        logits['disc'] = torch.stack([h(fusion_feat) for h in self.disc_heads], dim=1)  # (B,5,3)
-        logits['canal'] = torch.stack([h(fusion_feat) for h in self.canal_heads], dim=1)  # (B,11,2)
+        logits['disc'] = torch.stack([h(fusion_feat) for h in self.disc_heads], dim=1)  # (B,5,4)
+        logits['canal'] = torch.stack([h(fusion_feat) for h in self.canal_heads], dim=1)  # (B,11,4)
         return logits
 
     def freeze_backbone(self):
